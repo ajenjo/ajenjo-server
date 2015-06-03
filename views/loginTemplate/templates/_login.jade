@@ -1,0 +1,57 @@
+//- _login.jade
+
+.container
+
+  .h1.text-center: .logo-ajenjo.withLogo ajenjo
+
+  h1.text-center= __("Iniciar Sesion")
+
+  .row
+    .col-md-4.col-md-offset-4: .well.well-xs
+
+      //- alert(type="danger", ng-if="$root.error")
+      //-   strong Advertencia
+      //-   | &nbsp;Existen problemas de comunicación con el servicio, por lo que no podemos habilitar el inicio de sesión por ahora.
+
+      alert(type="warning", ng-if="loginError")
+        i.glyphicon.glyphicon-alert
+        | &nbsp;
+        = __("El nombre de usuario o contraseña no coinciden")
+        | .
+
+      alert(type="success", ng-if="loginCorrect")
+        i.glyphicon.glyphicon-ok
+        | &nbsp;
+        = __("Se ha cargado correctamente la sesión")
+        | .
+
+      alert(type="danger", ng-if="errorSys")
+        i.glyphicon.glyphicon-remove
+        | &nbsp;
+        = __("No se puede comunicar con el servido para verificar los datos ingresados")
+        | .
+
+      form(role="form")
+        .form-group
+          label.visible-xs= __("Usuario o Correo Electronico")
+          input.form-control(ng-keypress="keyToCreateSession($event)", ng-model="data.usernameOrEmail", placeholder=__("Usuario o Correo Electronico"))
+        .form-group
+          label.visible-xs= __("Contraseña")
+          input.form-control(ng-keypress="keyToCreateSession($event)", ng-model="data.passwordVerific", type="password", placeholder=__("Contraseña"))
+        div
+          button.btn.btn-primary.btn-block(type="button", ng-click="login()")
+            = __("Acceder")
+
+          .row
+
+            .col-md-6: div.checkbox
+              label
+                input(ng-model="data.rememberAccount", type="checkbox")
+                = __("No salir de la cuenta")
+
+            if sails.config.ajenjo.restartPassword
+              .col-md-6.hidden-xs.text-right: a(href="#/recovery")= __("He olvidado mi Contraseña")
+              .col-md-6.visible-xs.text-center: a(href="#/recovery").btn.btn-link= __("He olvidado mi Contraseña")
+
+
+  //- pre {{dataResult | json}}

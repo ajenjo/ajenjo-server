@@ -4,20 +4,164 @@
 		"selected_items":
 		[
 			[
+				"number",
+				"number_next_run"
+			],
+			[
+				"data_",
+				"data_cookie"
+			],
+			[
+				"data",
+				"data_cookie"
+			],
+			[
+				"request",
+				"request_paths"
+			],
+			[
+				"url",
+				"url_ajenjo"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"string",
+				"string_cookie_d"
+			],
+			[
+				"str",
+				"strReturn"
+			],
+			[
+				"tr",
+				"trim"
+			],
+			[
+				"val",
+				"valueParameter"
+			],
+			[
+				"naem",
+				"nameParameter"
+			],
+			[
+				"name",
+				"nameParameter"
+			],
+			[
+				"par",
+				"part_divide"
+			],
+			[
+				"stri",
+				"string_cookie"
+			],
+			[
+				"e",
+				"elseif	elseif …"
+			],
+			[
+				"log",
+				"log1p"
+			],
+			[
+				"ass",
+				"assert"
+			],
+			[
+				"test",
+				"testcase	class-xxTest-extends-PHPUnit_Framework_TestCase"
+			],
+			[
+				"ex",
+				"expire"
+			],
+			[
+				"set",
+				"setcookie"
+			],
+			[
+				"exp",
+				"explode_value"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"reques",
+				"request_parameters"
+			],
+			[
+				"req",
+				"req	require …"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"re",
+				"ret	return"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"key",
+				"key_token"
+			],
+			[
+				"class",
+				"class_exists"
+			],
+			[
+				"as",
+				"asst	assertTrue"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"body",
+				"body_text"
+			],
+			[
 				"policiS",
 				"policySingular"
 			],
 			[
-				"number",
-				"numberToTruePolicies"
-			],
-			[
 				"pol",
 				"policys"
-			],
-			[
-				"for",
-				"forin	Array Comprehension"
 			],
 			[
 				"polic",
@@ -30,10 +174,6 @@
 			[
 				"module",
 				"module.runMain();"
-			],
-			[
-				"log",
-				"logRecoveryPassword"
 			],
 			[
 				"box",
@@ -52,16 +192,8 @@
 				"req"
 			],
 			[
-				"e",
-				"exec"
-			],
-			[
 				"user",
 				"userOrEmail"
-			],
-			[
-				"set",
-				"setAutorun"
 			],
 			[
 				"los",
@@ -94,10 +226,6 @@
 			[
 				"lo",
 				"log	log"
-			],
-			[
-				"re",
-				"result"
 			],
 			[
 				"activi",
@@ -188,10 +316,6 @@
 				"group"
 			],
 			[
-				"val",
-				"validaIfExistsOnLocalGroups"
-			],
-			[
 				"grop",
 				"groups"
 			],
@@ -252,10 +376,6 @@
 				"newData"
 			],
 			[
-				"data",
-				"dataNewUsers"
-			],
-			[
 				"col-md",
 				"col-md-12"
 			],
@@ -294,10 +414,6 @@
 			[
 				"mo",
 				"models"
-			],
-			[
-				"name",
-				"nameValid"
 			],
 			[
 				"group",
@@ -376,14 +492,6 @@
 				"keyGroup"
 			],
 			[
-				"key",
-				"key"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
 				"a",
 				"a	a()"
 			],
@@ -406,119 +514,43 @@
 			[
 				"ro",
 				"routeProvider"
-			],
-			[
-				"el",
-				"elif	Else if"
-			],
-			[
-				"te",
-				"templateUrl"
-			],
-			[
-				"conf",
-				"config"
-			],
-			[
-				"mod",
-				"modules"
-			],
-			[
-				"per",
-				"permission"
-			],
-			[
-				"md-",
-				"md-tab-body"
-			],
-			[
-				"md",
-				"md-tab"
-			],
-			[
-				"srC",
-				"scr	script()"
-			],
-			[
-				"fac",
-				"factory"
-			],
-			[
-				"req",
-				"require"
-			],
-			[
-				"text-de",
-				"text-decoration"
-			],
-			[
-				"margin",
-				"margin"
-			],
-			[
-				"heig",
-				"height"
-			],
-			[
-				"coffee",
-				"coffee"
-			],
-			[
-				"js",
-				"jsOut"
-			],
-			[
-				"html",
-				"htmlOut"
-			],
-			[
-				"jade",
-				"jadeSrc"
-			],
-			[
-				"css",
-				"cssOut"
-			],
-			[
-				"sass",
-				"sassSrc"
-			],
-			[
-				"text-dec",
-				"text-decoration-color"
-			],
-			[
-				"bacgr",
-				"background-color"
-			],
-			[
-				"padd",
-				"padding-top"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"func",
-				"function"
-			],
-			[
-				"page",
-				"pageSelect"
-			],
-			[
-				"has",
-				"hasta web	edgrid-mq-hasta-web"
-			],
-			[
-				"inline",
-				"inline-block"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "config/routes.js",
+			"settings":
+			{
+				"buffer_size": 4358,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/controllers/ApiController.js",
+			"settings":
+			{
+				"buffer_size": 7106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/responses/loginFailed.js",
+			"settings":
+			{
+				"buffer_size": 219,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/responses/notFound.js",
+			"settings":
+			{
+				"buffer_size": 2497,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -527,13 +559,197 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "title",
+		"height": 81.0,
+		"last_filter": "export",
 		"selected_items":
 		[
 			[
+				"export",
+				"Snippet: module.exports"
+			],
+			[
 				"title",
 				"Convert Case: Title Case"
+			],
+			[
+				"totl",
+				"View: Toggle Tabs"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ex",
+				"Snippet: module.exports"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"calc",
+				"Calculate"
+			],
+			[
+				"low",
+				"Convert Case: Lower Case"
+			],
+			[
+				"exp",
+				"Snippet: module.exports"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"module",
+				"Snippet: module.exports"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"tiitle",
+				"Dictionaries: Set Language"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"TITLE",
+				"Convert Case: Title Case"
+			],
+			[
+				"UPP",
+				"Convert Case: Upper Case"
+			],
+			[
+				"assert",
+				"Snippet: assertCount"
+			],
+			[
+				"assertarray",
+				"Snippet: assertArrayHasKey"
+			],
+			[
+				"asserteq",
+				"Snippet: assertEquals"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"coffee",
+				"Coffee: Fast Compile"
+			],
+			[
+				"coffe",
+				"Coffee: Run Cake Task"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"console",
+				"Snippet: console.log()"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"var",
+				"Snippet: Class Variable"
+			],
+			[
+				"assertinsta",
+				"Snippet: assertInstanceOf"
+			],
+			[
+				"uper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"eq",
+				"Snippet: assertEquals"
+			],
+			[
+				"constru",
+				"Snippet: function __construct"
+			],
+			[
+				"construct",
+				"Snippet: function __construct"
+			],
+			[
+				"assertE",
+				"Snippet: assertEmpty"
+			],
+			[
+				"phpuni",
+				"Snippet: class-xxTest-extends-PHPUnit_Framework_TestCase"
+			],
+			[
+				"true",
+				"Snippet: assertTrue"
+			],
+			[
+				"equal",
+				"Snippet: assertEquals"
+			],
+			[
+				"snippet ass",
+				"Snippet: assertTrue"
+			],
+			[
+				"phpunit",
+				"Snippet: class-xxTest-extends-PHPUnit_Framework_TestCase"
+			],
+			[
+				"log",
+				"git: log"
+			],
+			[
+				"func",
+				"Snippet: Function"
+			],
+			[
+				"functio",
+				"Snippet: function …"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"titl",
+				"Convert Case: Title Case"
+			],
+			[
+				"uppe",
+				"Convert Case: Upper Case"
+			],
+			[
+				"php",
+				"Snippet: <?php echo … ?>"
 			],
 			[
 				"coffees",
@@ -544,28 +760,12 @@
 				"Set Syntax: Plain Text"
 			],
 			[
-				"lo",
-				"Convert Case: Lower Case"
-			],
-			[
 				"jade",
 				"Set Syntax: Jade"
 			],
 			[
 				"reqi",
 				"Snippet: require"
-			],
-			[
-				"low",
-				"Convert Case: Lower Case"
-			],
-			[
-				"upp",
-				"Convert Case: Upper Case"
-			],
-			[
-				"titl",
-				"Convert Case: Title Case"
 			],
 			[
 				"compile ",
@@ -580,28 +780,8 @@
 				"Snippet: module.exports"
 			],
 			[
-				"export",
-				"Snippet: module.exports"
-			],
-			[
 				"modu",
 				"Snippet: module.exports"
-			],
-			[
-				"coffee",
-				"Coffee: Fast Compile"
-			],
-			[
-				"module",
-				"Snippet: module.exports"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"nodejs::",
@@ -620,44 +800,12 @@
 				"Package Control: Enable Package"
 			],
 			[
-				"preview",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
 				"cal",
 				"Calculate"
 			],
 			[
-				"calc",
-				"Coffee: Fast Compile"
-			],
-			[
-				"uper",
-				"Convert Case: Upper Case"
-			],
-			[
-				"tit",
-				"Convert Case: Title Case"
-			],
-			[
-				"php",
-				"Snippet: <?php echo … ?>"
-			],
-			[
-				"mar",
-				"Set Syntax: Markdown Extended"
-			],
-			[
-				"javas",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"json",
 				"Set Syntax: JSON"
-			],
-			[
-				"javs",
-				"Set Syntax: JavaScript"
 			],
 			[
 				"gulp ",
@@ -666,10 +814,6 @@
 			[
 				"ejs",
 				"Set Syntax: EJS (<% and %>)"
-			],
-			[
-				"coffe",
-				"Set Syntax: CoffeeScript"
 			],
 			[
 				"markd",
@@ -732,10 +876,6 @@
 				"Set Syntax: HTML"
 			],
 			[
-				"java",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"dis",
 				"Package Control: Disable Package"
 			],
@@ -794,10 +934,6 @@
 			[
 				"import",
 				"Snippet: @import"
-			],
-			[
-				"upper",
-				"Convert Case: Upper Case"
 			],
 			[
 				"upl",
@@ -938,110 +1074,6 @@
 			[
 				"snippet ",
 				"Snippet: html"
-			],
-			[
-				"packagelist",
-				"Package Control: List Packages"
-			],
-			[
-				"ru",
-				"Set Syntax: Ruby"
-			],
-			[
-				"y",
-				"Set Syntax: YAML"
-			],
-			[
-				"tutle",
-				"AutoFileName: Default Settings"
-			],
-			[
-				"ruy",
-				"Set Syntax: Ruby"
-			],
-			[
-				"yam",
-				"Set Syntax: YAML"
-			],
-			[
-				"enable",
-				"Package Control: Enable Package"
-			],
-			[
-				"enam",
-				"Emmet: Rename Tag"
-			],
-			[
-				"confi",
-				"Set Syntax: SSH Config"
-			],
-			[
-				"web",
-				"Snippet: webcomponentsjs"
-			],
-			[
-				"in",
-				"Set Syntax: INI"
-			],
-			[
-				"git",
-				"git: checkout"
-			],
-			[
-				"gis",
-				"git: status"
-			],
-			[
-				"gitignore",
-				"Gitignore: New gitignore"
-			],
-			[
-				"po",
-				"Snippet: polymer element"
-			],
-			[
-				"polymer",
-				"Snippet: polymer element"
-			],
-			[
-				"xml",
-				"Set Syntax: XML"
-			],
-			[
-				"less",
-				"Set Syntax: LESS"
-			],
-			[
-				"olymer",
-				"Snippet: polymer element noscript"
-			],
-			[
-				"POLY",
-				"Snippet: polymer html boilerplate"
-			],
-			[
-				"poly",
-				"Snippet: polymer element noscript"
-			],
-			[
-				"host",
-				"Set Syntax: Hosts File"
-			],
-			[
-				"GitSavvy",
-				"GitSavvy: reload modules (debug)"
-			],
-			[
-				"COFFEE",
-				"Set Syntax: CoffeeScript"
-			],
-			[
-				"packag ins",
-				"Package Control: Install Package"
-			],
-			[
-				"space",
-				"Indentation: Convert to Spaces"
 			]
 		],
 		"width": 528.0
@@ -1067,146 +1099,157 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config"
+	],
 	"file_history":
 	[
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/loginTemplate/templates/_reset_password.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/controllers/_controller_reset_password.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appName/components/_angular_ngSails.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/components/_angular_ngSails.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/_routes.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/loginTemplate/templates/_recovery_password.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/ajenjo.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/loginTemplate/_templates.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/ApiController.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/HelpController.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/ActivationUser.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/PlanDeTrabajo.md",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/UserController.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/routes.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/Gruntfile.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/tasks/register/build.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/tasks/config/coffee.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/services/emailService.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/EmailSends.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/blueprints.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/User.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/Sessions.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/log.js",
-		"/C/Users/Jonathan/Downloads/httpd.config to Server cotolengo",
-		"/C/Users/Jonathan/AppData/Local/Temp/scp27460/etc/httpd/conf/httpd.conf",
-		"/C/Users/Jonathan/AppData/Local/Temp/scp05493/etc/httpd/conf/httpd.conf",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/logs/my_log_file.log",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/log",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/app.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses/serverError.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/LoginController.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/loginTemplate/_index.jade",
-		"/C/Users/Jonathan/Documents/Passenger-Count/database/migrations/2015_05_15_024102_correccion_id_tablas.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/app/User.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/database/migrations/2015_05_08_183317_create_contador_table.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/database/migrations/2015_05_08_171007_create_table_pago_bus.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/database/migrations/2015_05_08_170938_create_table_recorridos.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/database/migrations/2015_05_08_171002_create_table_bus.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/database/migrations/2015_05_08_170910_create_table_empresa.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/database/migrations/2014_10_12_100000_create_password_resets_table.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/resources/views/admin/users/partials/fields.blade.php",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/views/404.ejs",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/policies/sessionAuth.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/policies.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/policies/onlyDevelopers.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/local.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/controllers/_controller_recoveryPassword.coffee",
-		"/C/Users/Jonathan/Documents/Passenger-Count/app/Http/Controllers/Admin/UsersController.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/app/Http/routes.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/.env",
-		"/C/Users/Jonathan/Documents/Passenger-Count/config/database.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/resources/views/admin/users/edit.blade.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/resources/views/admin/users/create.blade.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/resources/views/admin/users/index.blade.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/resources/views/admin/users/partials/table.blade.php",
-		"/C/Users/Jonathan/Documents/Passenger-Count/app/Http/Controllers/UsersController.php",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/loginTemplate/templates/_login.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/controllers/_controller_login.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/views/layout.ejs",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/[13-05-15] Revicion/Notas duracnte el procedimiento.md",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/correcciones atlas DB/Resumen.md",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/project Servers Atlas/db1/listener.ora",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/project Servers Atlas/db1/tnsnames.ora",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/project Servers Atlas/db1/config.txt",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/project Servers Atlas/protocolo de prueba.txt",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/project Servers Atlas/scriptTest.txt",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/Proyecto VCA.md",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/notas.md",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/Re instalacion de la Base de datos/Completando Requerimientos VCA.md",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/Re instalacion de la Base de datos/Completando Requerimientos VCA.html",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/Resumen Proyecto Atlas/Resumen.md",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/Atlas/files/alert_DB11G.log",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses/forbidden.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/components/_angular_route.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/controllers/_controller_app.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/views/403.ejs",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/AjenjoController.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses/noIsLogin.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/models.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/policies/isLogin.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/http.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appHome/components/_angular_ngSails.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/ajenjoController.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/node_modules/stack-gulp-front/index.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/gulpfile.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/views.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/bootstrap.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/connections.js",
-		"/C/Users/Jonathan/Documents/docker-workshop/schedule.md",
-		"/C/Users/Jonathan/Documents/docker-workshop/README.md",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/session.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/csrf.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/cors.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/globals.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses/ok.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses/notFound.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/node_modules/sails-disk/node_modules/waterline-criteria/lib/projections/groupBy.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/GroupController.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/group.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/component/sessionsMultiAccess.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/routes.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/ApiController.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/sockets.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses/testResponse.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/Sessions.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/app/lower.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/services/sessionControl.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/policies/onlyDevelopers.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/policies/ViewSessionActive.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/bin/sails.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/app/load.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/bower_components/sails.io.js/sails.io.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/bower_components/sails.io.js/dist/sails.io.js",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/src/ajenjo/ajenjo.php",
+		"/C/Users/Jonathan/Downloads/notas",
+		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/[01-06-15] Configuracion de interfaces bund (Rebundancia) en radius's/README.md",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/composer.json",
+		"/C/Users/Jonathan/.bash_profile",
+		"/C/Users/Jonathan/.bashrc",
 		"/c/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/package.json",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/Group.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/Permission.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/_config.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appHome/_config.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appHome/controllers/_controller_app.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/login.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/home.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/loginTemplate/_layout.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/loginTemplate/_login.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/loginTemplate/_templates_login.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/login.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/index.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/homeTemplate/_layout.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/homeTemplate/_index.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/dest/index.html",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/dest/login.html",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/homeTemplate.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/homeTemplate/login.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appName/_config.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appName/_app.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/factory/_factory_messages.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/factory/_factory_logs_attac.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/factory/_factory_alerts_attac.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/directives/_directive_controlActivities.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/directives/_directive_activePath.coffee",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/_layout.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/jade/components/_navbar.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/components/_angular_ngSanitize.coffee"
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/watchSession/example.php",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/GoTologin/example.php",
+		"/C/Users/Jonathan/Downloads/Shutterstock_PD_v3.1/Shutterstock PD v3.1 password.txt",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/watchSession/example.php",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/services/emailService.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/services/passwordService.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/session.js",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/GoTologin/example.php",
+		"/C/Users/Jonathan/Documents/packagist-session-converter/src/cookieConverter/cookie.php",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/watchSession/README.md",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/GoTologin/README.md",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/composer.json",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/.gitignore",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/tests/ajenjoTest.php",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/tests/serve/index.php",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/composer.",
+		"/c/Users/Jonathan/Documents/packagist-session-converter/src/cookieConverter/cookie.php",
+		"/c/Users/Jonathan/Documents/packagist-session-converter/composer.json",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/vendor/jondotsoy/cookieconverter/composer.json",
+		"/C/Users/Jonathan/Documents/packagist-session-converter/composer.json",
+		"/C/Users/Jonathan/Documents/packagist-session-converter/README.md",
+		"/c/Users/Jonathan/Documents/packagist-session-converter/src/cookie_converter/cookie.php",
+		"/c/Users/Jonathan/Documents/packagist-session-converter/README.md",
+		"/C/Users/Jonathan/Documents/packagist-session-converter/LICENSE",
+		"/C/Users/Jonathan/Documents/packagist-session-converter/tests/cookieConveterTest.php",
+		"/c/Users/Jonathan/Documents/packagist-session-converter/tests/cookieConveterTest.php",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/views/loginTemplate/templates/_login.jade",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/src/ajenjo/request/request.php",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/tests/serve.php",
+		"/c/Users/Jonathan/Documents/cottolengo-clinica/app/routes.php",
+		"/C/Users/Jonathan/AppData/Local/Temp/a.js",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/src/ajenjo/request/dataReader.php",
+		"/C/Users/Jonathan/AppData/Local/Temp/Temp1_php-5.6.9-nts-Win32-VC11-x86.zip/install.txt",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/README.md",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/TASKS.md",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/tests/sayhelloTest.php",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/src/SayHello.php",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/src/helloworld.php",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/composer/autoload_namespaces.php",
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/index.php",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/src/SayHello.php",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/composer/autoload_psr4.php",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/src/helloworld.php",
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/composer.json",
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/tests/sayhelloTest.php",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/composer/autoload_classmap.php",
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/phpunit.xml",
+		"/C/Program Files (x86)/Git/doc/git/html/git-commit.html",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/composer/autoload_real.php",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/composer/ClassLoader.php",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/composer/installed.json",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/autoload.php",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/tests/ajenjoTest.php",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/src/ajenjo.php",
+		"/C/Users/Jonathan/Documents/packagist-ajenjo/src/helloworld.php",
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/composer.",
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/README.md",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/helloworld.php",
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/composer.json",
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/tests/ajenjoTest.php",
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/tests/loginTest.php",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/request.json",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/vendor/composer/autoload_real.php",
+		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/vendor/autoload.php",
+		"/C/Users/Jonathan/.ssh/known_hosts",
+		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/[27-05-15] Validaciones de estado de la base de datos/README.md",
+		"/D/jonPrueba/Script_CCNA2.txt",
+		"/C/Users/Jonathan/Downloads/Script_CCNA2.txt",
+		"/C/Users/Jonathan/Documents/Stack Frontend/package.json",
+		"/c/Users/Jonathan/Documents/Stack Frontend/README.md",
+		"/C/Users/Jonathan/Documents/Stack Frontend/index.js",
+		"/c/Users/Jonathan/Documents/Stack Frontend/index.coffee",
+		"/C/Users/Jonathan/Documents/Stack Frontend/index.coffee",
+		"/C/Users/Jonathan/Documents/Stack Frontend/index.js/index.js",
+		"/C/Users/Jonathan/Documents/Stack Frontend/.gitignore",
+		"/C/Users/Jonathan/Documents/gitignore_global.txt",
+		"/C/Users/Jonathan/Documents/Stack Frontend/.git/config",
+		"/C/Users/Jonathan/Documents/docker-workshop/demo-website/app1/Dockerfile",
+		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/README.md",
+		"/C/Users/Jonathan/AppData/Local/Temp/log",
+		"/C/Users/Jonathan/Documents/jonadin/gulpfile.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/Gruntfile.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/gulpfile.js",
+		"/C/Users/Jonathan/Documents/docker-workshop/demo-website/app2/Dockerfile",
+		"/C/Users/Jonathan/Documents/docker-workshop/demo-website/nginx/default.conf",
+		"/C/Users/Jonathan/Documents/docker-workshop/demo-website/app2/index.php",
+		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/app1/index.php",
+		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/nginx/Dockerfile",
+		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/nginx/nginx.conf",
+		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/nginx/default.conf",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/beneficios.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/videoPresentation.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/nosotros.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/newsletter.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/navbar.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/navbar-content.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/liveChatePublic.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/header.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/descriptionOfService.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/contacts.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/index.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/footerPage.jade",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/contactsLeft.jade"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 96.0,
 		"where_history":
 		[
+			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back",
+			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\node_modules\\sails",
+			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\node_modules\\",
 			"C:\\Users\\Jonathan\\Documents\\proyecto_EGE_ATLAS=imatech",
 			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\config",
 			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\",
@@ -1229,134 +1272,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"    next();",
-			"policies",
-			"policys",
-			"miniLengthPolycy",
-			"true",
-			"/",
-			"/g",
-			"MD5",
-			"+ ",
-			"destroy",
-			"user",
-			"generate",
-			"type",
-			"cb",
-			"user",
+			"401",
+			"status",
+			"{}",
+			"PathReturn",
+			"pathReturn",
+			"anext",
+			"process",
+			"use",
 			",",
-			", ",
-			"74.116.40.5",
-			"74.116.40.5:",
-			"/dev",
-			"ajenj",
-			".ajenj",
-			"ajenj",
-			"proxy",
-			"ajenjocottolengo.jon.soy",
-			"proxy",
-			"boolean",
-			"defaultBox",
-			"boxMailgun",
-			"EmailSends",
-			"emailSends",
-			"data",
-			"renameColumn",
-			"table('recorrido",
-			"recorrido",
-			"eventRecoveryPassword",
-			"header",
-			"Oracle",
-			"user",
-			"User",
-			"user",
-			"User",
-			"$location",
-			"h3",
-			"isLogin",
-			"as",
-			"ass",
-			"iss",
-			"\\",
-			"customMiddleware",
-			"express",
-			"app",
-			"customMiddleware",
-			"express",
-			"middleware",
-			"middl",
-			"***",
-			"***12",
-			"nodemailer-mailgunapi-transport",
-			"console",
-			"adapter",
-			"homepage",
-			"api",
-			"console.log",
-			"UserA",
-			"md5",
-			"sleep",
-			"user",
-			"users",
-			"e",
-			":",
-			"params",
-			"query",
-			"loginIncorrecto",
-			"\\\"",
-			"location.pathname",
-			"xs",
-			"md",
-			"checkbox",
-			":",
-			"logControllerApp",
-			"assets",
-			"on = f",
-			"sails",
-			"assets",
-			"index",
-			"endActivitieTimeOut",
-			"callBackActivities",
-			"logControlActivities",
-			"refreshViews",
-			"$rootScope",
-			"in",
-			"'saveAllGroups'",
-			"saveAllGroups",
-			"save",
-			"\n\n",
-			"\n",
-			"controlActivities.get",
-			".end",
-			"ra",
-			"na",
-			"ra",
-			"ra1",
-			"controlActivities",
-			"\")",
-			"\"",
-			"default",
-			"na2",
-			"na1",
-			"\n    height 50px",
-			"   height 3px\n  }\n  50% {\n ",
-			"0% {",
-			"500px",
-			":",
-			";",
-			"2",
-			"1",
-			"countActivities",
-			"endCallback",
-			"getActivityFinished",
-			"getActivityCreated",
-			"activities",
+			"testResponse",
+			"Es un existo",
+			"log(",
 			"log",
-			"endCallback",
-			"callback",
-			"historyActivities",
-			",",
-			"log54126"
+			"ses",
+			"sesion",
+			"req",
+			"request",
+			"req",
+			"google",
+			"createSessionOnDataBase",
+			"Session",
+			"3",
+			"**",
+			"****",
+			"**",
+			"/**",
+			"sessionID",
+			"sessionAnido",
+			"getSession",
+			"sn",
+			"s",
+			"set",
+			")) {",
+			"indexOf",
+			"sessionID",
+			"sessions",
+			"\"",
+			"\\{[\\n|.]+",
+			"{.+}",
+			"sessions",
+			"sessionVariable",
+			"param",
+			"cookie",
+			"sesssionVariable",
+			".",
+			"getSesionKeyOfCookie",
+			"h4",
+			"h5",
+			"h2",
+			"stdClass",
+			"}",
+			"0",
+			"184",
+			"button",
+			"searchURL",
+			"haystack",
+			"/",
+			"strReturn",
+			"string",
+			"date",
+			"$name_session_key",
+			"name_session_key",
+			"$name_session_key",
+			"name_session_key",
+			"session_key",
+			"name_session_key",
+			"setSesionKeyOfCookie",
+			"session_key",
+			"explode_value",
+			"$value",
+			"sessions",
+			"$",
+			"getLogin",
+			"\\ajenjo\\ajenjo",
+			"AJENJO_CLI_",
+			"$",
+			"null",
+			"\"",
+			"commit",
+			"router_factory",
+			"#\\n",
+			"\\n+#",
+			"valida",
+			"f",
+			"apply",
+			"(ASYNC|1)",
+			"(ASYNC|)",
+			"(ASYNC)",
+			"(ASYNC",
+			"async",
+			"dest_[0-9]+",
+			"dest_[0-9]",
+			"dest_2",
+			"ARCn",
+			"LGWR",
+			"LGWR ",
+			"### db[0-9]",
+			"### DB1",
+			"### db1",
+			"\\#\\#\\#\\sdb[0-9]",
+			"db",
+			"\\#\\#db[0-9]",
+			"init",
+			"'",
+			"require?",
+			"config?",
+			"config.",
+			"config",
+			"script_to_concat",
+			"config",
+			"include",
+			"config",
+			"Config",
+			"config",
+			"server",
+			"(([0-9]{0,3}\\.){3}[0-9]{1,3})",
+			"([0-9]{0,3}\\.){3}[0-9]{1,3}",
+			"([0-9]{0,3}\\.){0,3}[0-9]{1,3}",
+			"192.168.1.6",
+			"([0-9]{1,3}\\.){1,3}[0-9]{1,3}",
+			"([0-9]{1,3}\\.){1,3}[0-9]",
+			"([0-9]{1,3}\\.)",
+			"([0-9])",
+			" ",
+			"PORT\\s+STATE\\s+SERVICE(\\n[0-9]+/(tcp|udp)\\s+(.+)\\s+.+)+",
+			"PORT(\\n[0-9]+/(tcp|udp)\\s+(.+)\\s+.+)+",
+			"(\\n[0-9]+/(tcp|udp)\\s+(.+)\\s+.+)+",
+			"(\\n[0-9]+/(tcp|udp)\\s+(open)\\s+.+)+"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1375,14 +1418,159 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1762,
+								1762
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_savvy.file_path": "C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\config\\routes.js",
+							"git_savvy.repo_path": "C:/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "api/controllers/ApiController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4475,
+								4272
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_savvy.file_path": "C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\api\\controllers\\ApiController.js",
+							"git_savvy.repo_path": "C:/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2453.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "api/responses/loginFailed.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_savvy.file_path": "C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\api\\responses\\loginFailed.js",
+							"git_savvy.repo_path": "C:/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "api/responses/notFound.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								454
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_savvy.file_path": "C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\api\\responses\\notFound.js",
+							"git_savvy.repo_path": "C:/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1411,15 +1599,27 @@
 		]
 	},
 	"menu_visible": false,
+	"output.GitSavvy":
+	{
+		"height": 124.0
+	},
+	"output.exec":
+	{
+		"height": 364.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 124.0
 	},
 	"pinned_build_system": "",
 	"project": "README.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 50.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1462,7 +1662,7 @@
 	{
 	},
 	"show_minimap": false,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 258.0,

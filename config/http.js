@@ -11,13 +11,19 @@ var express = require('express');
  * http://sailsjs.org/#/documentation/reference/sails.config/sails.config.http.html
  */
 
+
 module.exports.http = {
 
   // Recursos compartidos
 
   customMiddleware: function (app) {
-    app.use(express.static(sails.config.ajenjo.frontRoute + '/dest'));
-    app.use(express.static(sails.config.ajenjo.frontRoute + '/bower_components'));
+    // app.use(express.static('/dest'));
+    app.use(express.static(process.cwd() + '/bower_components'));
+    app.use(express.static(process.cwd() + '/.tmp/public/'));
+
+    app.use(function(req,res,next){
+      next();
+    });
   },
 
 
@@ -44,7 +50,7 @@ module.exports.http = {
       'startRequestTimer',
       'cookieParser',
       'session',
-      // 'myRequestLogger',
+      'myRequestLogger',
       // 'bodyParser',
       'handleBodyParserError',
       'compress',
@@ -52,34 +58,33 @@ module.exports.http = {
       'poweredBy',
       '$custom',
       'router',
-      // 'www',
+      'www',
       'favicon',
       '404',
       '500',
     ],
 
-  /****************************************************************************
-  *                                                                           *
-  * Example custom middleware; logs each request to the console.              *
-  *                                                                           *
-  ****************************************************************************/
 
-    // myRequestLogger: function (req, res, next) {
-    //     console.log("Requested :: ", req.method, req.url);
-    //     return next();
-    // }
+    /***************************************************************************
+    *                                                                          *
+    * Example custom middleware; logs each request to the console.             *
+    *                                                                          *
+    ***************************************************************************/
+    myRequestLogger: function (req, res, next) {
+      sails.log("Requested :: ", req.sessionID, " :: ", req.method, req.url);
+      next();
+    },
 
+    /***************************************************************************
+    *                                                                          *
+    * The body parser that will handle incoming multipart HTTP requests. By    *
+    * default as of v0.10, Sails uses                                          *
+    * [skipper](http://github.com/balderdashy/skipper). See                    *
+    * http://www.senchalabs.org/connect/multipart.html for other options.      *
+    *                                                                          *
+    ***************************************************************************/
 
-  /***************************************************************************
-  *                                                                          *
-  * The body parser that will handle incoming multipart HTTP requests. By    *
-  * default as of v0.10, Sails uses                                          *
-  * [skipper](http://github.com/balderdashy/skipper). See                    *
-  * http://www.senchalabs.org/connect/multipart.html for other options.      *
-  *                                                                          *
-  ***************************************************************************/
-
-    // bodyParser: require('skipper')
+    bodyParser: require('skipper'),
 
   },
 
@@ -93,5 +98,5 @@ module.exports.http = {
   *                                                                          *
   ***************************************************************************/
 
-  // cache: 31557600000
+  cache: 31557600000,
 };

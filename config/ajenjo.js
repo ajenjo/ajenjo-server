@@ -9,17 +9,6 @@
  */
 
 module.exports.ajenjo = {
-
-  /*****************************************************************************
-  * Rutas para el frontend.                                                    *
-  *                                                                            *
-  * Base para los documento asociados al frontend.                             *
-  *                                                                            *
-  * Con esta ruta es que la aplicación carga los documentos.                   *
-  *****************************************************************************/
-
-  frontRoute: 'C:/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front',
-
   /*****************************************************************************
   * Control de cuentas. ¡En Desarrollo!                                        *
   *                                                                            *
@@ -41,5 +30,7 @@ module.exports.ajenjo = {
   * NOTA: Ha mayor el largo mas demora codificación MD5.                       *
   *****************************************************************************/
   lengthToRandom: 15,
+
+  defaultPathReturnLogin: '/',
 
 };

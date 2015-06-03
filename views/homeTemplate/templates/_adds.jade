@@ -1,0 +1,20 @@
+//- _adds.jade
+
+.container
+  //- Titles to Adds
+  div(ng-switch="type")
+    h1(ng-switch-when="group") Crear Grupos
+    h1(ng-switch-when="permission") Crear Permisos
+    h1(ng-switch-when="user") Crear Usuarios
+
+  //- Tabs Manual
+  ul.nav.nav-tabs
+    li(ng-class="{'active': is('group')}"): a(href="#/add/group") Grupos
+    li(ng-class="{'active': is('permission')}"): a(href="#/add/permission") Permisos
+    li(ng-class="{'active': is('user')}"): a(href="#/add/user") Usuarios
+
+  //- Panels Adds
+  div(ng-switch="type")
+    .panel.panel-default(ng-switch-when="group"): .panel-body: include adds/_groups.jade
+    .panel.panel-default(ng-switch-when="permission"): .panel-body: include adds/_permissions.jade
+    .panel.panel-default(ng-switch-when="user"): .panel-body: include adds/_users.jade

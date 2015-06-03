@@ -4,27 +4,46 @@
  * @description :: Server-side logic for managing logins
  * @help        :: See http://links.sailsjs.org/docs/controllers
  */
-var md5   = require('MD5');
-
+// var md5   = require('MD5');
+var cookie = require("cookie");
 
 module.exports = {
 
   index: function (req, res, next) {
-    res.sendfile(sails.config.ajenjo.frontRoute + '/dest/login.html', null);
+    res.view('login');
+    // res.sendfile(sails.config.ajenjo.frontRoute + '/dest/login.html', null);
   },
 
-  "*": function (req, res, next) {
+  r: function (req, res, next) {
+    sails.rs = res;
 
-    searchURL = /\/login\/(.+)$/ig.exec(req.url)
+    var cookieDect
+      , sessionSender
+      , returnPage;
 
-    if (searchURL[1]) {
-      req.session.rq = searchURL[1];
-      res.redirect('/login');
+    /***************************************************************************
+    * Busca Si existe la variable de sesion definida.                          *
+    ***************************************************************************/
+    if (req.param('s') && req.param('r')) {
+      returnPage    = req.param('r');
+      sessionSender = req.param('s');
+
+      req.session.returnPageTmp = returnPage;
+
+      /*Get Session Index*/
+      sessionIDcapture = sessionSender;
+
+      if (sessionIDcapture) {
+        req.sessiondAnido(sessionIDcapture, function(err, sn){
+          res.redirect("..");
+          // res.json(sn);
+        });
+      } else {
+        res.notFound();
+      }
     } else {
       res.notFound();
     }
-
-    // res.json({url:req.url,session: req.session});
 
   },
 

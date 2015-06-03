@@ -1,4 +1,15 @@
 {
   "Welcome": "Bienvenido",
-  "A brand new app.": "Una aplicación de la nueva marca."
+  "A brand new app.": "Una aplicación de la nueva marca.",
+  "welcome": "welcome",
+  "Contraseña": "Contraseña",
+  "Usuario o Correo Electronico": "Usuario o Correo Electronico",
+  "No se puede comunicar con el servido para verificar los datos ingresados": "No se puede comunicar con el servido para verificar los datos ingresados",
+  "Se ha cargado correctamente la sesión": "Se ha cargado correctamente la sesión",
+  "El nombre de usuario o contraseña no coinciden": "El nombre de usuario o contraseña no coinciden",
+  "Iniciar Sesion": "Iniciar Sesion",
+  "No salir de la cuenta": "No salir de la cuenta",
+  "Acceder": "Acceder",
+  "He olvidado mi Contraseña": "He olvidado mi Contraseña",
+  "Stop": "Stop"
 }

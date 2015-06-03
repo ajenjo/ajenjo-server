@@ -1,0 +1,41 @@
+//- _permissions.jade
+//- Controller add_permission
+
+extend _layout_adds.jade
+
+block information
+  h2 Agrega un nuevo permiso
+  p Los permisos permiten los agregar características a las interacciones de tu sistema.
+
+block form_add
+
+  h2 Nuevo Permisos
+
+  alert(ng-repeat="alert in alertsFixed", type="{{alert.type}}"): span(ng-bind-html="alert.message")
+  alert(ng-repeat="alert in alerts", type="{{alert.type}}", close="removeAlert(alert)"): span(ng-bind-html="alert.message")
+
+
+  form: form-repeat-element(ng-model="data.permissionsAdd", min-init="1", fn-new="newPermissionToAdd", name-data="permission")
+    .row
+      .col-md-12.text-right(ng-if="!$$isHeader()"): a.btn.btn-link.btn-xs(form-remove-element, ng-click="$$remove()")
+        i.glyphicon.glyphicon-remove
+        | &nbsp;Eliminar
+      .form-group.col-md-6(ng-class="{'has-success': $parent.$parent.validateKey(permission), 'has-error': $parent.$parent.dangerKey(permission)}")
+        label.visible-xs Nombre clave del permiso
+        input.form-control(placeholder="Nombre clave del permiso", ng-model="permission.key")
+      .form-group.col-md-6
+        label.visible-xs Nombre del permiso
+        input.form-control(placeholder="Nombre del permiso", ng-model="permission.name")
+
+  button.btn-xs.btn.btn-default(ng-click="newPermissionToAdd()")
+    i.glyphicon.glyphicon-plus
+    | &nbsp;Agregar otro permiso
+  hr
+  button(ng-click="save()").btn.btn-primary.btn-block Crear Permisos
+  br
+
+  progressbar(ng-if="progressbar.status",
+    value="progressbar.value",
+    type="{{progressbar.type}}",
+    max="progressbar.max",
+    animate="true").progress-striped.active {{progressbar.text}}

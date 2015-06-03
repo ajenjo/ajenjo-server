@@ -73,6 +73,13 @@ module.exports = {
     return passwordService.verific(user.typePassword, password, user.password);
   },
 
+  /*****************************************************************************
+  * Realiza una búsqueda de un Usuario, permitiendo filtrar por contraseña.    *
+  *                                                                            *
+  * La contraseña al tener múltiples protocolos de registros, este permite,    *
+  * buscar sin la necesidad de tener que definir un protocolo para la          *
+  * contraseña.                                                                *
+  *****************************************************************************/
   findWithPassword: function (query, cb) {
     var ownCallBack, passwordDetect;
 
@@ -82,7 +89,7 @@ module.exports = {
       if (err) {
         cb(err);
       } else {
-        // Sin herror.
+        // Sin errores.
         if (user) {
           // Con usuario
 
@@ -90,11 +97,17 @@ module.exports = {
           if (User.validatePassword(user, passwordDetect)) {
             cb(null, user);
           } else {
-            cb(null, null);
+            cb({
+              error: 3,
+              message: "La contraseña no es valida.",
+            }, null);
           }
         } else {
-          // Sin Usiario
-          cb(null, null);
+          // Sin Usuario
+          cb({
+            error: 4,
+            message: "No se pudo encontrar ningún usuario.",
+          }, null);
         }
       }
     };

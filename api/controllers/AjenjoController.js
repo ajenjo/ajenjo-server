@@ -9,7 +9,8 @@ module.exports = {
 
 
 	index: function (req, res, next) {
-    res.sendfile(sails.config.ajenjo.frontRoute + '/dest/home.html', null);
+    res.view('home');
+    // res.sendfile(sails.config.ajenjo.frontRoute + '/dest/home.html', null);
   },
 
 

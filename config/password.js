@@ -3,9 +3,11 @@
  */
 
 module.exports.password = {
+
   literal: {
 
   },
+
   encrypt: {
 
   },
@@ -14,6 +16,6 @@ module.exports.password = {
     /***************************************************************************
     * Define el prefijo con que la contraseña codifica su hash.                *
     ***************************************************************************/
-    prefix: '9da7ab1a2a3fd56-'
+    prefix: process.env.password_v2_prefix || '000-'
   },
 }

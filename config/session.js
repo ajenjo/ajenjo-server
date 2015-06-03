@@ -16,6 +16,8 @@ var md5 = require('MD5');
 
 module.exports.session = {
 
+  key: "ajenjo.session",
+
   /***************************************************************************
   *                                                                          *
   * Session secret is automatically generated when your new app is created   *
@@ -23,7 +25,7 @@ module.exports.session = {
   * of your users, forcing them to log in again.                             *
   *                                                                          *
   ***************************************************************************/
-  secret: md5("Se es enferma extrana formula limites eh pasando. Las interprete fue ingratitud ventajosos tentandole. Garantias ambulante incapaces le da moralidad so aceptando un chocolate.\n Cera sol alla tio alto cita pago eres con. Humillado despierta asquerosa hoy que mezclados atreverme. Decirlo le da atreves rapidos tu satiras el pellejo consejo. Pediria dos ilustre infeliz oir eso atreves gas. &&$ Breve en manos brazo il color cielo al me todos. Id consejo pasados hablaba cuantos parecer seguian ir si. Mucho otras yo pecho pesar el pilas nubes la. Traspunte hermosura va en si atreveria he. Las dama acto non iba poco mero hija. Por mezquina influian debieran ese mil. Ambos he brazo pobre ni es. Correccion il excelentes inveterada tranquilos ir ch cigarrillo en despertado.\n Tirano por aun pupila doy don ningun. Tanto chi muero deuda oyo sobre nunca."),
+  secret: md5(process.env.session_secret || 'abc...'),
 
 
   /***************************************************************************
@@ -34,8 +36,31 @@ module.exports.session = {
   ***************************************************************************/
 
   cookie: {
-    //      day, hours, min, seg, mseg.
-    maxAge: 5 *  24 *   60 * 60 * 1000,
+    maxAge: (function(){
+      var dateEnd = new Date(
+        process.env.session_maxage_years        || 0,
+        process.env.session_maxage_months       || 1,
+        process.env.session_maxage_days         || 0,
+        process.env.session_maxage_hours        || 0,
+        process.env.session_maxage_seconds      || 0,
+        process.env.session_maxage_minutes      || 0,
+        process.env.session_maxage_milliseconds || 0);
+
+      return Number(Number(dateEnd) - Number(new Date(0,0,0,0)));
+    }).call(),
+
+    maxAgeNoSession: (function() {
+      var dateEnd = new Date(
+        process.env.session_maxage_nosession_years        || 0,
+        process.env.session_maxage_nosession_months       || 0,
+        process.env.session_maxage_nosession_days         || 0,
+        process.env.session_maxage_nosession_hours        || 2,
+        process.env.session_maxage_nosession_seconds      || 0,
+        process.env.session_maxage_nosession_minutes      || 0,
+        process.env.session_maxage_nosession_milliseconds || 0);
+
+      return Number(Number(dateEnd) - Number(new Date(0,0,0,0)));
+    }).call(),
   },
 
   /***************************************************************************

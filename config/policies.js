@@ -26,7 +26,7 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
+  '*': ['ViewSessionActive'],
 
   'AjenjoController': {
     '*': ['sessionAuth'],
