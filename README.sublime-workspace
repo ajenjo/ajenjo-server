@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
-				"number",
-				"number_next_run"
+				"gr",
+				"groupPrimario"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"loca",
+				"localURL"
+			],
+			[
+				"class_",
+				"class_exists"
+			],
+			[
+				"gulp",
+				"gulpt	gulp.task('name',function)"
 			],
 			[
 				"data_",
-				"data_cookie"
+				"data_session"
+			],
+			[
+				"number",
+				"number_next_run"
 			],
 			[
 				"data",
@@ -82,10 +102,6 @@
 			[
 				"test",
 				"testcase	class-xxTest-extends-PHPUnit_Framework_TestCase"
-			],
-			[
-				"ex",
-				"expire"
 			],
 			[
 				"set",
@@ -420,10 +436,6 @@
 				"groupsToAdd"
 			],
 			[
-				"gr",
-				"groupsToAdd"
-			],
-			[
 				"aler",
 				"alerts"
 			],
@@ -502,53 +514,49 @@
 			[
 				"panel-",
 				"panel-body"
-			],
-			[
-				"btn",
-				"btn-default"
-			],
-			[
-				"con",
-				"container"
-			],
-			[
-				"ro",
-				"routeProvider"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "config/routes.js",
+			"file": "/c/Users/Jonathan/Documents/cottolengo Fase1/index.php",
 			"settings":
 			{
-				"buffer_size": 4358,
+				"buffer_size": 4771,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "api/controllers/ApiController.js",
+			"file": "/c/Users/Jonathan/Documents/cottolengo Fase1/controladores/conLogin.php",
 			"settings":
 			{
-				"buffer_size": 7106,
+				"buffer_size": 702,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "api/responses/loginFailed.js",
+			"file": "/c/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/watchSession/example.php",
 			"settings":
 			{
-				"buffer_size": 219,
+				"buffer_size": 2175,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/c/Users/Jonathan/Documents/cottolengo Fase1/modelos/clsLogin.php",
+			"settings":
+			{
+				"buffer_size": 4472,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "api/responses/notFound.js",
+			"file": "/c/Users/Jonathan/Documents/packagist-ajenjo/src/ajenjo/ajenjo.php",
 			"settings":
 			{
-				"buffer_size": 2497,
-				"line_ending": "Unix"
+				"buffer_size": 4725,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -559,10 +567,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 81.0,
-		"last_filter": "export",
+		"height": 392.0,
+		"last_filter": "up",
 		"selected_items":
 		[
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"plan",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
 			[
 				"export",
 				"Snippet: module.exports"
@@ -584,10 +608,6 @@
 				"Snippet: module.exports"
 			],
 			[
-				"preview",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
 				"calc",
 				"Calculate"
 			],
@@ -598,10 +618,6 @@
 			[
 				"exp",
 				"Snippet: module.exports"
-			],
-			[
-				"java",
-				"Set Syntax: JavaScript"
 			],
 			[
 				"module",
@@ -908,10 +924,6 @@
 				"Markdown Preview: Preview in Browser"
 			],
 			[
-				"up",
-				"Convert Case: Upper Case"
-			],
-			[
 				"stylus",
 				"Set Syntax: Stylus"
 			],
@@ -1070,10 +1082,6 @@
 			[
 				"Snippet: ",
 				"Snippet: #!/usr/bin/env"
-			],
-			[
-				"snippet ",
-				"Snippet: html"
 			]
 		],
 		"width": 528.0
@@ -1103,39 +1111,81 @@
 	[
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config"
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers"
 	],
 	"file_history":
 	[
+		"/C/Users/Jonathan/Downloads/log.txt",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/appLogin/controllers/_controller_login.coffee",
+		"/c/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/Gruntfile.js",
+		"/c/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/app.js",
+		"/c/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/package.json",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/hooks/logger/ship.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/hooks/logger/index.js",
+		"/C/Users/Jonathan/Documents/Supervicion de ORactuva ACta N1",
+		"/C/Users/Jonathan/Documents/cottolengo Fase1/index.php",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/composer.json",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/watchSession/example.php",
+		"/C/Users/Jonathan/Documents/cottolengo Fase1/vendor/jondotsoy/ajenjo/src/ajenjo/ajenjo.php",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/composer.",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/hooks/views/consolidate.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/hooks/views/actions.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/hooks/index.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/preinstall_npmcheck.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/index.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/bin/sails.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/package.json",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/src/coffee/login.coffee",
+		"/c/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/GoTologin/example.php",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/routes.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/ApiController.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/Sessions.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/component/sessionsMultiAccess.js",
+		"/c/Users/Jonathan/Documents/gulpstack/index.coffee",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/.sailsrc",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/.dockerignore",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/tasks/pipeline.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/tasks/README.md",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/Gruntfile.js",
+		"/C/Users/Jonathan/Documents/gulpstack/package.json",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/package.json",
+		"/C/Users/Jonathan/Documents/gulpstack/README.md",
+		"/c/Users/Jonathan/Documents/gulpstack/.gitignore",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/Dockerfile",
+		"/c/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/package.json",
+		"/c/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/gulpfile.js",
+		"/c/Users/Jonathan/Documents/Stack Frontend/index.js",
+		"/c/Users/Jonathan/Documents/Stack Frontend/index.coffee",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/node_modules/gulpstack/package.json",
+		"/c/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/node_modules/stack-gulp-front/package.json",
+		"/c/Users/Jonathan/Documents/Stack Frontend/package.json",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/bower.json",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/.env",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/node_modules/stack-gulp-front/npm-debug.log",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/policies/sessionAuth.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/node_modules/stack-gulp-front/index.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/node_modules/stack-gulp-front/package.json",
+		"/C/Users/Jonathan/Documents/ajenjo/README.md",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/User.js",
+		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses/loginFailed.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses/serverError.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/LoginController.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/http.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/component/sessionsMultiAccess.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/routes.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/controllers/ApiController.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/config/sockets.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/responses/testResponse.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/models/Sessions.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/app/lower.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/services/sessionControl.js",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/policies/onlyDevelopers.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/policies/ViewSessionActive.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/bin/sails.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/node_modules/sails/lib/app/load.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/bower_components/sails.io.js/sails.io.js",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/bower_components/sails.io.js/dist/sails.io.js",
 		"/C/Users/Jonathan/Documents/packagist-ajenjo/src/ajenjo/ajenjo.php",
 		"/C/Users/Jonathan/Downloads/notas",
 		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/[01-06-15] Configuracion de interfaces bund (Rebundancia) en radius's/README.md",
-		"/c/Users/Jonathan/Documents/packagist-ajenjo/composer.json",
 		"/C/Users/Jonathan/.bash_profile",
 		"/C/Users/Jonathan/.bashrc",
-		"/c/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/package.json",
-		"/c/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/watchSession/example.php",
-		"/c/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/GoTologin/example.php",
 		"/C/Users/Jonathan/Downloads/Shutterstock_PD_v3.1/Shutterstock PD v3.1 password.txt",
 		"/C/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/watchSession/example.php",
 		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/api/services/emailService.js",
@@ -1149,7 +1199,6 @@
 		"/C/Users/Jonathan/Documents/packagist-ajenjo/.gitignore",
 		"/C/Users/Jonathan/Documents/packagist-ajenjo/tests/ajenjoTest.php",
 		"/c/Users/Jonathan/Documents/packagist-ajenjo/tests/serve/index.php",
-		"/c/Users/Jonathan/Documents/packagist-ajenjo/composer.",
 		"/c/Users/Jonathan/Documents/packagist-session-converter/src/cookieConverter/cookie.php",
 		"/c/Users/Jonathan/Documents/packagist-session-converter/composer.json",
 		"/C/Users/Jonathan/Documents/packagist-ajenjo/vendor/jondotsoy/cookieconverter/composer.json",
@@ -1193,60 +1242,20 @@
 		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/README.md",
 		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/helloworld.php",
 		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/composer.json",
-		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/tests/ajenjoTest.php",
-		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/tests/loginTest.php",
-		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/request.json",
-		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/vendor/composer/autoload_real.php",
-		"/C/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/vendor/autoload.php",
-		"/C/Users/Jonathan/.ssh/known_hosts",
-		"/C/Users/Jonathan/Documents/proyecto_EGE_ATLAS=imatech/[27-05-15] Validaciones de estado de la base de datos/README.md",
-		"/D/jonPrueba/Script_CCNA2.txt",
-		"/C/Users/Jonathan/Downloads/Script_CCNA2.txt",
-		"/C/Users/Jonathan/Documents/Stack Frontend/package.json",
-		"/c/Users/Jonathan/Documents/Stack Frontend/README.md",
-		"/C/Users/Jonathan/Documents/Stack Frontend/index.js",
-		"/c/Users/Jonathan/Documents/Stack Frontend/index.coffee",
-		"/C/Users/Jonathan/Documents/Stack Frontend/index.coffee",
-		"/C/Users/Jonathan/Documents/Stack Frontend/index.js/index.js",
-		"/C/Users/Jonathan/Documents/Stack Frontend/.gitignore",
-		"/C/Users/Jonathan/Documents/gitignore_global.txt",
-		"/C/Users/Jonathan/Documents/Stack Frontend/.git/config",
-		"/C/Users/Jonathan/Documents/docker-workshop/demo-website/app1/Dockerfile",
-		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/README.md",
-		"/C/Users/Jonathan/AppData/Local/Temp/log",
-		"/C/Users/Jonathan/Documents/jonadin/gulpfile.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back/Gruntfile.js",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_front/gulpfile.js",
-		"/C/Users/Jonathan/Documents/docker-workshop/demo-website/app2/Dockerfile",
-		"/C/Users/Jonathan/Documents/docker-workshop/demo-website/nginx/default.conf",
-		"/C/Users/Jonathan/Documents/docker-workshop/demo-website/app2/index.php",
-		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/app1/index.php",
-		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/nginx/Dockerfile",
-		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/nginx/nginx.conf",
-		"/c/Users/Jonathan/Documents/docker-workshop/demo-website/nginx/default.conf",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/beneficios.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/videoPresentation.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/nosotros.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/newsletter.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/navbar.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/navbar-content.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/liveChatePublic.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/header.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/descriptionOfService.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/contacts.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/index.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/footerPage.jade",
-		"/C/Users/Jonathan/Documents/RED.CLINIC(TM)/red.clinic web page/jade/sections/contactsLeft.jade"
+		"/c/Users/Jonathan/Documents/test-ajenjo-login-php/vendor/jondotsoy/ajenjo/tests/ajenjoTest.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 96.0,
 		"where_history":
 		[
+			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\node_modules\\",
+			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\node_modules\\sails\\",
+			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\node_modules\\sails\\Sails",
 			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back",
 			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\node_modules\\sails",
 			"C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\node_modules\\",
@@ -1272,6 +1281,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"administrador",
+			"$localURL",
+			"localURL",
+			"ajenjo",
+			"----",
+			"O",
+			"__---",
+			"__---___--___---___--___---___--___",
+			"<|    .-..-.",
+			"Sails              <|    .-..-.",
+			"start ",
+			"server",
+			"js",
+			"node",
+			":",
+			"clone",
+			"include",
+			"matchs",
+			".",
+			"include",
+			".",
+			"connect",
+			"server",
+			"() {",
+			".status: ",
 			"401",
 			"status",
 			"{}",
@@ -1374,32 +1408,7 @@
 			"\\#\\#\\#\\sdb[0-9]",
 			"db",
 			"\\#\\#db[0-9]",
-			"init",
-			"'",
-			"require?",
-			"config?",
-			"config.",
-			"config",
-			"script_to_concat",
-			"config",
-			"include",
-			"config",
-			"Config",
-			"config",
-			"server",
-			"(([0-9]{0,3}\\.){3}[0-9]{1,3})",
-			"([0-9]{0,3}\\.){3}[0-9]{1,3}",
-			"([0-9]{0,3}\\.){0,3}[0-9]{1,3}",
-			"192.168.1.6",
-			"([0-9]{1,3}\\.){1,3}[0-9]{1,3}",
-			"([0-9]{1,3}\\.){1,3}[0-9]",
-			"([0-9]{1,3}\\.)",
-			"([0-9])",
-			" ",
-			"PORT\\s+STATE\\s+SERVICE(\\n[0-9]+/(tcp|udp)\\s+(.+)\\s+.+)+",
-			"PORT(\\n[0-9]+/(tcp|udp)\\s+(.+)\\s+.+)+",
-			"(\\n[0-9]+/(tcp|udp)\\s+(.+)\\s+.+)+",
-			"(\\n[0-9]+/(tcp|udp)\\s+(open)\\s+.+)+"
+			"init"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1418,24 +1427,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/routes.js",
+					"file": "/c/Users/Jonathan/Documents/cottolengo Fase1/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4358,
+						"buffer_size": 4771,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1762,
-								1762
+								246,
+								246
 							]
 						],
 						"settings":
@@ -1443,15 +1452,14 @@
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"git_savvy.file_path": "C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\config\\routes.js",
-							"git_savvy.repo_path": "C:/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"git_savvy.file_path": "c:\\Users\\Jonathan\\Documents\\cottolengo Fase1\\index.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 570.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -1459,19 +1467,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "api/controllers/ApiController.js",
+					"file": "/c/Users/Jonathan/Documents/cottolengo Fase1/controladores/conLogin.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7106,
+						"buffer_size": 702,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4475,
-								4272
+								345,
+								345
 							]
 						],
 						"settings":
@@ -1479,45 +1487,8 @@
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"git_savvy.file_path": "C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\api\\controllers\\ApiController.js",
-							"git_savvy.repo_path": "C:/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2453.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "api/responses/loginFailed.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 219,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8,
-								8
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"git_savvy.file_path": "C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\api\\responses\\loginFailed.js",
-							"git_savvy.repo_path": "C:/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"git_savvy.file_path": "c:\\Users\\Jonathan\\Documents\\cottolengo Fase1\\controladores\\conLogin.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
@@ -1530,20 +1501,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "api/responses/notFound.js",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "/c/Users/Jonathan/Documents/packagist-ajenjo/docs/examples/watchSession/example.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2497,
+						"buffer_size": 2175,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								567,
-								454
+								260,
+								272
 							]
 						],
 						"settings":
@@ -1551,18 +1522,89 @@
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"git_savvy.file_path": "C:\\Users\\Jonathan\\Documents\\RED.CLINIC(TM)\\sessioncontrol_back\\api\\responses\\notFound.js",
-							"git_savvy.repo_path": "C:/Users/Jonathan/Documents/RED.CLINIC(TM)/sessioncontrol_back",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"git_savvy.file_path": "c:\\Users\\Jonathan\\Documents\\packagist-ajenjo\\docs\\examples\\watchSession\\example.php",
+							"git_savvy.repo_path": "c:/Users/Jonathan/Documents/packagist-ajenjo",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 972.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/c/Users/Jonathan/Documents/cottolengo Fase1/modelos/clsLogin.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1412,
+								1424
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_savvy.file_path": "c:\\Users\\Jonathan\\Documents\\cottolengo Fase1\\modelos\\clsLogin.php",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 939.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/c/Users/Jonathan/Documents/packagist-ajenjo/src/ajenjo/ajenjo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1820,
+								1812
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"git_savvy.file_path": "c:\\Users\\Jonathan\\Documents\\packagist-ajenjo\\src\\ajenjo\\ajenjo.php",
+							"git_savvy.repo_path": "c:/Users/Jonathan/Documents/packagist-ajenjo",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1146.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1570,7 +1612,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -1619,7 +1661,7 @@
 	"project": "README.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 56.0
 	},
 	"save_all_on_build": false,
 	"select_file":

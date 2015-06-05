@@ -1,5 +1,5 @@
 {
-  "name": "sessioncontrol_back",
+  "name": "ajenjo",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -36,7 +36,8 @@
     "sails-disk": "~0.10.0",
     "skipper": "^0.5.5",
     "thirty-two": "0.0.2",
-    "winston": "^1.0.0"
+    "winston": "^1.0.0",
+    "gulpstack": "^1.1.2"
   },
   "scripts": {
     "start": "node app.js",
@@ -45,8 +46,13 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/sessioncontrol_back.git"
+    "url": "https://github.com/ajenjo/backend-definition.git"
   },
   "author": "anonymous node/sails user",
-  "license": ""
+  "license": "CC",
+  "bugs": {
+    "url": "https://github.com/ajenjo/backend-definition/issues"
+  },
+  "homepage": "https://github.com/ajenjo/backend-definition",
+  "devDependencies": {}
 }
