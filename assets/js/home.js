@@ -48,6 +48,7 @@
     module.module(['ngSails']).config([
       '$sailsProvider', function($sailsProvider) {
         $sailsProvider.autoConnect = true;
+        $sailsProvider.url = document.location.protocol + "//" + document.location.host + "/";
         return $sailsProvider.useCORSRouteToGetCookie = true;
       }
     ]);
