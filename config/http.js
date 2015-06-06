@@ -71,7 +71,9 @@ module.exports.http = {
     *                                                                          *
     ***************************************************************************/
     myRequestLogger: function (req, res, next) {
-      sails.log("Requested :: ", req.sessionID, " :: ", req.method, req.url);
+      if (sails.config.environment === 'development') {
+        sails.log("Requested :: ", req.sessionID, " :: ", req.method, req.url);
+      };
       next();
     },
 
