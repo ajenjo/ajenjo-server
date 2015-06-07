@@ -1,0 +1,41 @@
+//- _navbar.jade
+
+nav.navbar.navbar-default: .container
+
+  .navbar-header
+    button(ng-init="navCollapsed=true", ng-click="navCollapsed=!navCollapsed").navbar-toggle.collapsed
+      span.sr-only Toggle Navigation
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    //- Logo En Barra superior
+    a(href="#!").navbar-brand.ajenjo
+      .logo-ajenjo.withLogo ajenjo
+
+  button(type="button", ng-if="$root.appIsConnect === -1").btn.btn-warning.navbar-btn Conectándose ...
+  button(type="button", ng-if="$root.appIsConnect === 0").btn.btn-danger.navbar-btn
+    //- , tooltip-placement="button", tooltip="La Aplicación se encuentra desconectada, por lo que se limitaran las acciones dentro de ella.",
+    i.glyphicon.glyphicon-warning-sign
+    | &nbsp;Desconectado
+
+  div(collapse="navCollapsed", ng-controller="navbarCtrl").collapse.navbar-collapse.navbar-right
+    ul.nav.navbar-nav
+      li(ng-class="{'active': $location.path()=='/users'}"): a(href="#/users") Usuarios
+      li(ng-class="{'active': $location.path()=='/groups'}"): a(href="#/groups") Grupos
+      li(ng-class="{'active': $location.path()=='/permissions'}"): a(href="#/permissions") Permisos
+      li.dropdown(dropdown)
+        a(href="#!", dropdown-toggle, title="Ajustes").dropdown-toggle
+          span.hidden-xs
+            i.glyphicon.glyphicon-cog
+          span.visible-xs
+            i.glyphicon.glyphicon-cog
+            | &nbsp;Ajustes
+        ul(role="menu").dropdown-menu
+          li: a(href="#!") link
+          li: a(href="#!") link
+          li: a(href="#!") link
+          li: a(href="#!") link
+          li.divider
+          li: a(href="#!")
+            i.glyphicon.glyphicon-log-out &nbsp;
+            | Logout

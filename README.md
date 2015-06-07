@@ -13,3 +13,19 @@ Usando el documento `.env` para poder configurar la base de datos, en donde se d
 ### Templates
 
 
+## Installar
+
+Instalar repositorios
+
+```bash
+$ npm install
+$ bower install
+```
+
+Preparar.
+
+```bash
+$ gulp debug
+```
+
+

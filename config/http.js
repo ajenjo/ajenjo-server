@@ -21,6 +21,8 @@ module.exports.http = {
     app.use(express.static(process.cwd() + '/bower_components'));
     app.use(express.static(process.cwd() + '/.tmp/public/'));
 
+    app.use(express.static(process.cwd() + '/assets/public/'));
+
     app.use(function(req,res,next){
       next();
     });

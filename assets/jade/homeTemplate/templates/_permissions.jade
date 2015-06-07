@@ -1,0 +1,31 @@
+//- _permissions.jade
+
+.container
+  h1 Permisos
+    small &nbsp;Ver Permisos.
+
+
+  span(ng-if="!search.active")
+    button.btn.btn-primary(ng-click="search.actived()"): i.glyphicon.glyphicon-search
+    a(href="#/add/permission").btn.btn-default Nuevo Permiso
+
+
+  //- Panel para Buscar
+  div(ng-if="search.active"): .input-group
+    .input-group-btn
+      button.btn.btn-danger(ng-click="search.actived()"): i.glyphicon.glyphicon-remove
+    input(ng-keyup="search.exit($event)", ng-model="search.text", type="text", placeholder="Buscar Resultados").form-control
+    .input-group-btn
+      button.btn.btn-default(ng-click="search.clear()"): i.glyphicon.glyphicon-trash
+      button.btn.btn-primary Buscar
+
+
+  .table-responsive: table.table.table-striped
+    thead
+      tr
+        th Permiso
+        th Descripción
+    tbody
+      tr(ng-repeat="permission in permissions | filter: search.text")
+        td {{ permission.key }}
+        td {{ permission.description }}
