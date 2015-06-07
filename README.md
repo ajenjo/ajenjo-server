@@ -22,10 +22,19 @@ $ npm install
 $ bower install
 ```
 
-Preparar.
+### Iniciar Servicio.
+
+> **Nota:** Require tener instalado [ForeverJs](https://github.com/foreverjs/forever)
 
 ```bash
-$ gulp debug
+$ npm start
+```
+
+
+### Detener servicio
+
+```bash
+$ npm stop
 ```
 
 
