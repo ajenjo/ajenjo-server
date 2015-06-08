@@ -6,7 +6,6 @@
  */
 var requestIp = require('request-ip');
 
-
 module.exports = {
 
   /*****************************************************************************
@@ -41,24 +40,29 @@ module.exports = {
       status: {
         close: function () {
           res.json(dataReturn);
+          req.generateEmitToAllRoomsSesion();
         },
         clear: function () {
           dataReturn.status = 0;
           local.status.close();
+          req.generateEmitToAllRoomsSesion();
         },
         ok: function () {
           dataReturn.status = 1;
           local.status.close();
+          req.generateEmitToAllRoomsSesion();
         },
         errorLogin: function () {
           dataReturn.loginError = true;
           dataReturn.status = 41;
           local.status.close();
+          req.generateEmitToAllRoomsSesion();
         },
         error: function () {
           dataReturn.loginError = true;
           dataReturn.status = 10;
           local.status.close();
+          req.generateEmitToAllRoomsSesion();
         },
       }
     }
@@ -159,27 +163,9 @@ module.exports = {
   *                                                                            *
   *****************************************************************************/
   status: function (req, res, next) {
-    // var dataReturn = {
-    //   e: 444,
-    //   session: req.sessionID,
-    //   sessiond: req.sessiond,
-    //   datad: req.datad,
-    // };
-
-    var dataReturn = {
-    };
-
-    dataReturn.login = (function () {
-      return !!(req.sessiond.user && req.sessiond.status);
-    })();
-
-    dataReturn.momory = (function() {
-      if (dataReturn.login) {
-        return req.datad;
-      };
-    })();
-
-    res.json(dataReturn);
+    req.generateStatus(function (returnData) {
+      res.json(returnData);
+    })
   },
 
 };

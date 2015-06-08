@@ -43,8 +43,7 @@
   "scripts": {
     "start": "forever start app.js",
     "stop": "forever stop app.js",
-    "debug": "node debug app.js",
-    "logs": "forever logs app.js"
+    "debug": "node debug app.js"
   },
   "main": "app.js",
   "repository": {

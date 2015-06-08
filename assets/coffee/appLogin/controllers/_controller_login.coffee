@@ -44,9 +44,9 @@ controller 'loginCtrl', [
         callLogin.success (data, status, headers, jwr) ->
           $scope.dataResult = data
 
-          if data.status is 1
-          #   # ...
-            window.document.location = "http://google.cl"
+          # if data.status is 1
+          # #   # ...
+          #   window.document.location = "http://google.cl"
 
 
           $scope.loginError   = data.loginError

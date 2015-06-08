@@ -50,16 +50,30 @@ module.exports = {
       'sessions': {
           like: '%' + idSession + '%'
       }
-    }).populate('user').sort({id: "DESC"}).exec(function(err, sn){
+    })
+    // .populate('user')
+    // .then(function(session){
+
+    // })
+    // .populateAll()
+    .sort({id: "DESC"}).exec(function(err, sn){
       sn = sn || {};
       sn.memory = sn.memory || {};
 
       sn.$save = function (cb) {
-        if (sn.save) {
-          sn.save(cb);
-        } else {
-          Sessions.create(sn).exec(cb);
+
+        try {
+          if (sn.save) {
+            sn.save(cb);
+          } else {
+            Sessions.create(sn).exec(cb);
+          }
+        } catch (errSave) {
+          cb({
+            message: "is no $save"
+          });
         }
+
       };
 
       cb(err, sn);

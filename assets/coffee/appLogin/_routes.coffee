@@ -26,3 +26,7 @@ route '/recovery',
 route '/reset/password/:index/:verific',
   controller  : 'resetPassword'
   templateUrl : 'reset_password_page'
+
+
+route '/session/close',
+  templateUrl : 'close_session'

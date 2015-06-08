@@ -15,7 +15,6 @@ module.exports = {
   },
 
   r: function (req, res, next) {
-    sails.rs = res;
 
     var cookieDect
       , sessionSender
@@ -35,8 +34,7 @@ module.exports = {
 
       if (sessionIDcapture) {
         req.sessiondAnido(sessionIDcapture, function(err, sn){
-          res.redirect("..");
-          // res.json(sn);
+          res.redirect("/login");
         });
       } else {
         res.notFound();

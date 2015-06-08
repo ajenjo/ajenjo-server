@@ -10,6 +10,7 @@ controller 'AppCtrl', [
   ],
   ($scope, $rootScope, $log, log, controlActivities, $sails, $location) ->
 
+    # window.$sails = $sails;
 
     $rootScope.title = 'Login'
 
@@ -18,20 +19,20 @@ controller 'AppCtrl', [
     logStatusConnectionApp = new log 'Status Connection', logControllerApp
 
 
-    do ->
+    # do ->
 
-      callToGetTestMessages = ->
+    #   callToGetTestMessages = ->
 
-        solicitaMensajeDeTest = $sails.get '/test'
+    #     solicitaMensajeDeTest = $sails.get '/test'
 
-        solicitaMensajeDeTest.success (data, status, headers, jwr) ->
-          $rootScope.reqExperimental = data
+    #     solicitaMensajeDeTest.success (data, status, headers, jwr) ->
+    #       $rootScope.reqExperimental = data
 
-      $sails.on 'connect', callToGetTestMessages
+    #   $sails.on 'connect', callToGetTestMessages
 
-      $rootScope.callTest = callToGetTestMessages
+    #   $rootScope.callTest = callToGetTestMessages
 
-    # Control de estado, si se precenta la aplicacion conectada o no. Permite
+    # Control de estado, si se presenta la aplicación conectada o no. Permite
     # leer una variable global que identifica su estado.
     do ->
       sinEstado    = -1
@@ -41,6 +42,14 @@ controller 'AppCtrl', [
       timeToTimeoutConnect = config.sails_time_to_declare_disconect
 
       $rootScope.appIsConnect = sinEstado
+      $rootScope.status = {}
+
+
+      # Recobery status APP
+      $sails.on 'update_status' , (data) ->
+        $rootScope.status = data
+        logStatusConnectionApp.log data
+
 
       setAppInDisconectOfTiemOut = ->
         if $rootScope.appIsConnect is sinEstado
@@ -53,6 +62,15 @@ controller 'AppCtrl', [
       # $rootScope.appIsConnect = desconectado
       $sails.on 'connect', () ->
         logStatusConnectionApp.log "Se ha conectado la aplicación."
+
+        # Load status if is connect
+        $sails.get '/api/status'
+          .success (data, status, headers, jwr) ->
+            logStatusConnectionApp.log data
+            $rootScope.status = data
+
+
+
         $rootScope.appIsConnect = conectado
 
       $sails.on 'disconnect', () ->

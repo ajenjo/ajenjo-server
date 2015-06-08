@@ -43,13 +43,11 @@ module.exports = function (sails) {
             "init",
             "debug",
             "watch",
-            "runNext",
           ];
         } else {
           tasksToRun = [
             "init",
             "debug",
-            "runNext",
           ];
         }
 
@@ -58,7 +56,7 @@ module.exports = function (sails) {
         sails.log.error("Error to run GULP: ", err);
       }
 
-      // return next();
+      return next();
     }
   };
 };
