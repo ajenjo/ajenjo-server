@@ -23,6 +23,7 @@ module.exports = function (sails) {
         // Disable the task jade.
         tasks: {
           jade: false,
+          connect: false,
         },
 
         scripts: sails.config.gulpstack.concatScript || [],
