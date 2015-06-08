@@ -53,6 +53,17 @@ controller 'loginCtrl', [
         callLogin.success (data, status, headers, jwr) ->
           $scope.dataResult = data
 
+
+          if data.loginCorrect && data.status is 1
+            # $location.url
+            logLogin.log "El inicio de sesion es correcto. Redicracondo a:", data.pathReturn
+
+            if data.pathReturn
+              window.document.location = data.pathReturn
+
+          logLogin.log "La data es: ", data
+
+
           # if data.status is 1
           # #   # ...
           #   window.document.location = "http://google.cl"

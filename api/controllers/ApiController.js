@@ -48,6 +48,9 @@ module.exports = {
           req.generateEmitToAllRoomsSesion();
         },
         ok: function () {
+          dataReturn.loginError = false;
+          dataReturn.loginCorrect = true;
+          dataReturn.pathReturn = req.session.returnPageTmp;
           dataReturn.status = 1;
           local.status.close();
           req.generateEmitToAllRoomsSesion();
