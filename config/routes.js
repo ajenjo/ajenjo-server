@@ -37,65 +37,67 @@ module.exports.routes = {
 
   "*": [sessionsMultiAccess.setupSessionConfig, sessionsMultiAccess.forsetGetSessionData],
 
-  '/': 'AjenjoController',
-  '/test': function (req, res, next){
-    // sails.log(req.sessiond);
-
-    res.json({
-      "req.sessionID" : req.sessionID,
-      "req.session"   : req.session,
-      "req.sessiond"  : req.sessiond,
-      "req.datad"     : req.datad,
-    });
+  '/': function (req, res, next) {
+    res.redirect('/login');
   },
+  // '/test': function (req, res, next){
+  //   // sails.log(req.sessiond);
 
-  '/two': function (req, res, next) {
-    var base32 = require('thirty-two');
-    var qr = require('qr-image');
+  //   res.json({
+  //     "req.sessionID" : req.sessionID,
+  //     "req.session"   : req.session,
+  //     "req.sessiond"  : req.sessiond,
+  //     "req.datad"     : req.datad,
+  //   });
+  // },
 
-    /*
-    * Meustra el codigo para el token. que se puede usar dentro de la aplicacion
-    * de google 2 autentificacion.
-    */
+  // '/two': function (req, res, next) {
+  //   var base32 = require('thirty-two');
+  //   var qr = require('qr-image');
 
-    var key = 'abc';
+  //   /*
+  //   * Meustra el codigo para el token. que se puede usar dentro de la aplicacion
+  //   * de google 2 autentificacion.
+  //   */
 
-    // encoded will be the secret key, base32 encoded
-    var encoded = base32.encode(key);
+  //   var key = 'abc';
 
-    // Google authenticator doesn't like equal signs
-    var encodedForGoogle = encoded.toString().replace(/=/g,'');
+  //   // encoded will be the secret key, base32 encoded
+  //   var encoded = base32.encode(key);
 
-    // to create a URI for a qr code (change totp to hotp if using hotp)
-    var uri = 'otpauth://totp/Ajenjo2test?secret=' + encodedForGoogle;
+  //   // Google authenticator doesn't like equal signs
+  //   var encodedForGoogle = encoded.toString().replace(/=/g,'');
 
-    var qr_svg = qr.imageSync(uri, { type: 'svg' });
+  //   // to create a URI for a qr code (change totp to hotp if using hotp)
+  //   var uri = 'otpauth://totp/Ajenjo2test?secret=' + encodedForGoogle;
 
-    var htmlBody = "<p>Codigo del token: "+encodedForGoogle+"</p><p> URI to QR: "+uri+"</p><div style=\"max-width: 500px;\">"+qr_svg+"</div>";
+  //   var qr_svg = qr.imageSync(uri, { type: 'svg' });
 
-    res.send(htmlBody);
-    // res.send(uri);
-  },
+  //   var htmlBody = "<p>Codigo del token: "+encodedForGoogle+"</p><p> URI to QR: "+uri+"</p><div style=\"max-width: 500px;\">"+qr_svg+"</div>";
 
-  '/two2': function (req, res, next) {
-    var notp = require('notp');
+  //   res.send(htmlBody);
+  //   // res.send(uri);
+  // },
 
-    //.... some initial login code, that receives the user details and TOTP / HOTP token
+  // '/two2': function (req, res, next) {
+  //   var notp = require('notp');
 
-    var key = 'abc';
-    var token = req.query.toke;
+  //   //.... some initial login code, that receives the user details and TOTP / HOTP token
 
-    // Check TOTP is correct (HOTP if hotp pass type)
-    var login = notp.totp.verify(token, key);
+  //   var key = 'abc';
+  //   var token = req.query.toke;
 
-    // invalid token if login is null
-    if (!login) {
-        return res.send('Token:' + token + '; Token invalid');
-    }
+  //   // Check TOTP is correct (HOTP if hotp pass type)
+  //   var login = notp.totp.verify(token, key);
 
-    // valid token
-    return res.send('Token:' + token + '; Token valid, sync value is' + login.delta);
-  },
+  //   // invalid token if login is null
+  //   if (!login) {
+  //       return res.send('Token:' + token + '; Token invalid');
+  //   }
+
+  //   // valid token
+  //   return res.send('Token:' + token + '; Token valid, sync value is' + login.delta);
+  // },
 
   '/login': true,
 
