@@ -30,3 +30,4 @@ route '/reset/password/:index/:verific',
 
 route '/session/close',
   templateUrl : 'close_session'
+  controller  : 'closeSesionCtrl'

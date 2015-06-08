@@ -99,7 +99,24 @@ module.exports = {
 
   logout: function (req, res, next) {
 
-    next();
+    req.sessiond.user = null;
+    req.sessiond.memory.sesionactive = false;
+
+    req.sessiond.$save(function(err, sesion){
+      if (err) {
+        res.json(500, {
+          type: "error",
+          message: "Is not Logout.",
+        });
+      } else {
+        req.generateEmitToAllRoomsSesion();
+        res.json({
+          type: "ok",
+          message: "Is Correcte Logout",
+        });
+      }
+    });
+
   },
 
   recovery: function (req, res, next) {

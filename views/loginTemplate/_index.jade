@@ -18,7 +18,7 @@ block content
 
   div(ng-controller="AppCtrl")
 
-    .text-center(style="z-index:1000;padding-top:4px;position:fixed;display:block;width:100%"): .label.label-warning(ng-if="$root.appIsConnect<=0") Servicio Desconetado, Pueden existir probleas para conectarce.
+    .text-center(style="z-index:1000;padding-top:4px;position:fixed;display:block;width:100%"): .label.label-warning(ng-if="$root.appIsConnect<=0")= __("Servicio Desconectado, pueden existir problemas para conectarse.")
 
     //- Nav superior
     //- include components/_navbar.jade
@@ -28,6 +28,6 @@ block content
 
 
     .container
-      button.btn.btn-default(ng-click="$root.callTest()") Call Test
+      //- button.btn.btn-default(ng-click="$root.callTest()") Call Test
       pre {{$root.status | json}}
-      pre {{$root.reqExperimental | json}}
+      //- pre {{$root.reqExperimental | json}}

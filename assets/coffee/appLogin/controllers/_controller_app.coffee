@@ -50,7 +50,6 @@ controller 'AppCtrl', [
         $rootScope.status = data
         logStatusConnectionApp.log data
 
-
       setAppInDisconectOfTiemOut = ->
         if $rootScope.appIsConnect is sinEstado
           $rootScope.appIsConnect = desconectado

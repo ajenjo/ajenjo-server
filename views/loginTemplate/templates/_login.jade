@@ -49,9 +49,8 @@
                 input(ng-model="data.rememberAccount", type="checkbox")
                 = __("No salir de la cuenta")
 
-            if sails.config.ajenjo.restartPassword
+            //- if sails.config.ajenjo.restartPassword
               .col-md-12.hidden-xs.text-right: a(href="#/recovery")= __("He olvidado mi Contraseña")
               .col-md-12.visible-xs.text-center: a(href="#/recovery").btn.btn-link= __("He olvidado mi Contraseña")
 
 
-  //- pre {{dataResult | json}}

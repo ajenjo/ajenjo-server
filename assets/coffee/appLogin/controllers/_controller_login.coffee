@@ -22,6 +22,15 @@ controller 'loginCtrl', [
     $scope.dataResult = {}
     $scope.loginError = false
 
+
+
+
+    $rootScope.$watch "status.login", (nSts, oSts) ->
+      if nSts is true
+        $location.url "/session/close"
+
+
+
     $scope.keyToCreateSession = ($event) ->
       if $event.keyCode is 13
         do createSession

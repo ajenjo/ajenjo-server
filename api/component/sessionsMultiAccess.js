@@ -70,10 +70,12 @@ module.exports = {
 
     req.generateEmitToAllRoomsSesion = function (){
       try {
-        sessions = (req.sessiond.sessionsArr || [req.sessionID]);
+        sessions = req.sessiond.sessionsArr || [req.sessionID];
 
-        sessions.forEach(function (room){
-          sails.io.sockets.in(room).emit("update_status", req.generateStatus());
+        req.generateStatus(function(statusData){
+          sessions.forEach(function (room){
+            sails.io.sockets.in(room).emit("update_status", statusData);
+          });
         });
       } catch (err) {
       }
