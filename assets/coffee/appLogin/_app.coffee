@@ -1,4 +1,4 @@
-### Controladores ###
+# Controladores
 
 controller = (name_controller, modules_param, fn_controller) ->
   modules_param.push fn_controller
@@ -6,4 +6,4 @@ controller = (name_controller, modules_param, fn_controller) ->
 
 #= require controllers/_*.coffee
 
-### End Comtroladores ###
+# End Comtroladores

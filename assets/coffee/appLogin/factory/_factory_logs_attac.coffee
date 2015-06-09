@@ -35,7 +35,7 @@
 
 factory 'log', ->
 
-  aArray = (arrs)->
+  aArray = (arrs) ->
     arrReturn = []
     for index, arr of arrs
       if Array.isArray arr
@@ -44,13 +44,12 @@ factory 'log', ->
       else
         arrReturn.push arr
 
-    # console.log arrReturn
     arrReturn
 
 
 
   # Genera logs basados
-  ###log54126###
+  # log54126
   class log
 
     constructor: (

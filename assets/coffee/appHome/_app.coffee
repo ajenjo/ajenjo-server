@@ -7,4 +7,4 @@ controller = (name_controller, modules_param, fn_controller) ->
 
 #= require controllers/_*.coffee
 
-### End Comtroladores ###
+# End Comtroladores

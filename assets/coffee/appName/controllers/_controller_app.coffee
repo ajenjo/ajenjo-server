@@ -1,4 +1,4 @@
-### Gestiona los permisos ###
+# Gestiona los permisos
 controller 'AppCtrl', [
   '$scope'
   '$rootScope'
