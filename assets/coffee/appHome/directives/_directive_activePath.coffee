@@ -1,4 +1,4 @@
-# _directive_activePath.coffee
+# appHome :: directives/_directive_activePath.coffee
 
 # directive 'activePath', ->
 #   controller: [

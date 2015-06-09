@@ -1,4 +1,4 @@
-# _controller_add_group.coffee
+# appHome :: controllers/_controller_add_group.coffee
 
 # Controlador par agregar un nuevo grupo.
 

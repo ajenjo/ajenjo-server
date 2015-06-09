@@ -1,4 +1,4 @@
-# _factory_models_attac.coffee
+# appHome :: factory/_factory_models_attac.coffee
 #
 # Crea componente para el Model.
 #

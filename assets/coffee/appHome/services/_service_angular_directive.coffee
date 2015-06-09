@@ -1,4 +1,4 @@
-# _service_angular_directive.coffee
+# appHome :: services/_service_angular_directive.coffee
 #
 # Genera directive
 #

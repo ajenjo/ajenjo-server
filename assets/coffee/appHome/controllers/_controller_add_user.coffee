@@ -1,4 +1,5 @@
-# _controller_add_user.coffee
+# appHome :: controllers/_controller_add_user.coffee
+
 controller 'add_user', [
   '$scope'
   '$rootScope'

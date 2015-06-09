@@ -1,4 +1,4 @@
-# _service_angular_factory.coffee
+# appHome :: services/_service_angular_factory.coffee
 #
 # gestina las factory de la app
 #

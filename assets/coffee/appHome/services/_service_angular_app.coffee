@@ -1,4 +1,4 @@
-# _service_angular_app.coffee
+# appHome :: services/_service_angular_app.coffee
 
 if angular?
 
@@ -21,9 +21,9 @@ if angular?
 
 
 
-  ###  Modulos  ###
+  # Modulos
   #= require ../components/_*.coffee
-  ###  Fin de Modulos  ###
+  # Fin de Modulos
 
 
 

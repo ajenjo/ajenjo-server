@@ -1,4 +1,5 @@
-# _directive_boxSearch.coffee
+# appHome :: directives/_directive_boxSearch.coffee
+
 #
 # Permite obtener valores que requieren de multiples valores.
 #

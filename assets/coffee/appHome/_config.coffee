@@ -1,6 +1,6 @@
-###
-  Variables config
-###
+# appHome :: _config.coffee
+
+# Variables config
 config =
 
   # Nombre de la aplicación

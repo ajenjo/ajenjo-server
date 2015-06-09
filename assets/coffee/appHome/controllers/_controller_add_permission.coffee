@@ -1,4 +1,5 @@
-# _controller_add_permission.coffee
+# appHome :: controllers/_controller_add_permission.coffee
+
 controller 'add_permission', [
   '$scope'
   '$log'

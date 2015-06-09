@@ -1,4 +1,4 @@
-# _factory_messages.coffee
+# appHome :: factory/_factory_messages.coffee
 
 factory 'messages', ->
   module:

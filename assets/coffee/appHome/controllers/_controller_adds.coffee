@@ -1,4 +1,5 @@
-# _controller_adds.coffee
+# appHome :: controllers/_controller_adds.coffee
+
 controller 'addsCtrl', [
   '$scope'
   '$routeParams'

@@ -1,4 +1,4 @@
-# _angular_ngSanitize.coffee
+# appLogin :: components/_angular_ngSanitize.coffee
 
 module
   .module [

@@ -1,4 +1,4 @@
-# _angular_provider_progressBar.coffee
+# appLogin :: components/_angular_provider_progressBar.coffee
 
 # Example:
 #

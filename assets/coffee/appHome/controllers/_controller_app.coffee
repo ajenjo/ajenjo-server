@@ -1,4 +1,6 @@
-### Gestiona los permisos ###
+# appHome :: controllers/_controller_app.coffee
+
+# Gestiona los permisos
 controller 'AppCtrl', [
   '$scope'
   '$rootScope'

@@ -1,4 +1,5 @@
-### Controladores ###
+# appHome :: _app.coffee
+# Controladores
 
 controller = (name_controller, modules_param, fn_controller) ->
   modules_param.push fn_controller

@@ -1,4 +1,4 @@
-# _directive_controlActivities.coffee
+# appHome :: directives/_directive_controlActivities.coffee
 directive 'controlActivities', () ->
   # restrict: "E"
 

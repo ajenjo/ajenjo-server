@@ -1,4 +1,4 @@
-# _controller_permissions.coffee
+# appHome :: controllers/_controller_permissions.coffee
 
 controller 'permissionCtrl', [
   '$scope'

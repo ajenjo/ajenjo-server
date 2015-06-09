@@ -1,4 +1,4 @@
-# _factory_logs_attac.coffee
+# appHome :: factory/_factory_logs_attac.coffee
 
 # Crea estructuas de mensajes
 #
