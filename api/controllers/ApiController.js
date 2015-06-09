@@ -30,24 +30,28 @@ module.exports = {
 
     // Modelo Data a retornar
     var dataReturn = {
-      loginCorrect : false, // True or False
-      loginError   : false, // True or False
-      status       : 0, // 0, 1, 41, 10
-      pathReturn   : sails.config.ajenjo.defaultPathReturnLogin,
+      backServerCode : 0,
+      loginCorrect   : false, // True or False
+      loginError     : false, // True or False
+      status         : 0, // 0, 1, 41, 10
+      pathReturn     : sails.config.ajenjo.defaultPathReturnLogin,
     }
 
     var local = {
       status: {
-        close: function () {
+        close: function (codeIndex) {
+          dataReturn.backServerCode = codeIndex;
           res.json(dataReturn);
           req.generateEmitToAllRoomsSesion();
         },
-        clear: function () {
+        clear: function (codeIndex) {
+          dataReturn.backServerCode = codeIndex;
           dataReturn.status = 0;
           local.status.close();
           req.generateEmitToAllRoomsSesion();
         },
-        ok: function () {
+        ok: function (codeIndex) {
+          dataReturn.backServerCode = codeIndex;
           dataReturn.loginError = false;
           dataReturn.loginCorrect = true;
           dataReturn.pathReturn = req.session.returnPageTmp;
@@ -55,13 +59,15 @@ module.exports = {
           local.status.close();
           req.generateEmitToAllRoomsSesion();
         },
-        errorLogin: function () {
+        errorLogin: function (codeIndex) {
+          dataReturn.backServerCode = codeIndex;
           dataReturn.loginError = true;
           dataReturn.status = 41;
           local.status.close();
           req.generateEmitToAllRoomsSesion();
         },
-        error: function () {
+        error: function (codeIndex) {
+          dataReturn.backServerCode = codeIndex;
           dataReturn.loginError = true;
           dataReturn.status = 10;
           local.status.close();
@@ -81,22 +87,22 @@ module.exports = {
           password: password,
         }, function (err, user) {
           if (err) {
-            local.status.errorLogin();
+            local.status.errorLogin(1);
           } else {
             req.sessiond.user = user;
             req.sessiond.memory.sesionactive = true;
 
             req.sessiond.$save(function(err, sesion) {
               if (err) {
-                local.status.error();
+                local.status.error(2);
               } else {
-                local.status.ok();
+                local.status.ok(3);
               }
             });
           }
         });
     } else {
-      local.status.error();
+      local.status.error(4);
     };
   },
 
