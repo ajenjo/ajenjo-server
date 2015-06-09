@@ -1,4 +1,4 @@
-### Module Route ###
+# appLogin :: components/_angular_route.coffee
 
 module
   .module [

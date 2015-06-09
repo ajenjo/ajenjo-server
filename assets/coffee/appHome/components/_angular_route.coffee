@@ -1,4 +1,6 @@
-### Module Route ###
+# appHome :: components/_angular_route.coffee
+
+# Module Route
 
 module
   .module [

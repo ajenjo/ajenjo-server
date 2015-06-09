@@ -1,4 +1,4 @@
-# _factory_serach_fnc.coffee
+# appHome :: factory/_factory_serach_fnc.coffee
 factory 'search', ->
 
   class search

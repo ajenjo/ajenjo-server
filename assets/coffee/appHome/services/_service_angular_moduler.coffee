@@ -1,4 +1,4 @@
-# _service_angular_moduler.coffee
+# appHome :: services/_service_angular_moduler.coffee
 
 # Permite cagar los modulos desde una fuente externa.
 module =

@@ -7,6 +7,24 @@ html(lang=sails.config.i18n.defaultLocale)
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
       )
     title Documents
-block body
-  h1 Error 500
+
+  body
+
+    h1= __("Error Interno Del Servidor")
+
+    h2= __("Algo no está bien aquí")
+     | .
+
+    if (typeof error !== 'undefined')
+      pre: code= error
+    else
+      p= __("Un equipo de lubina altamente capacitado está trabajando en este mismo momento")
+        | .
+      p
+        = __("Si el problema persiste, póngase en contacto con el")
+        | &nbsp;
+        a(href="mailto://you@your-domain.com")= __("administrador del sistema")
+        | &nbsp;
+        = __("e informarles de la época en que se produjo el error, y cualquier cosa que podría haber hecho que pudo haber causado el error")
+        | .
 

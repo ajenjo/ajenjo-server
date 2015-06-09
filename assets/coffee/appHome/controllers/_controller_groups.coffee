@@ -1,4 +1,4 @@
-# _controller_groups.coffee
+# appHome :: controllers/_controller_groups.coffee
 
 controller 'groupsCtrl', [
   '$scope'

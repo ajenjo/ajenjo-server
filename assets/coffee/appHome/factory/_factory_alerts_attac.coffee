@@ -1,4 +1,4 @@
-# _factory_alerts_attac.coffee
+# appHome :: factory/_factory_alerts_attac.coffee
 factory 'alert', ->
   class alert
 

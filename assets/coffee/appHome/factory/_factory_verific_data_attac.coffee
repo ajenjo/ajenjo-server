@@ -1,4 +1,4 @@
-# _factory_verific_data_attac.coffee
+# appHome :: factory/_factory_verific_data_attac.coffee
 
 #
 # Contiene una serie de funciones que permite validar siertos tipos de datos.

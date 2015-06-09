@@ -1,4 +1,4 @@
-# _controller_users.coffee
+# appHome :: controllers/_controller_users.coffee
 
 controller 'usersCtrl', [
   '$scope'

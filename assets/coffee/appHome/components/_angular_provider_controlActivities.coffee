@@ -1,4 +1,4 @@
-# _angular_provider_progressBar.coffee
+# appHome :: components/_angular_provider_progressBar.coffee
 
 # Example:
 #

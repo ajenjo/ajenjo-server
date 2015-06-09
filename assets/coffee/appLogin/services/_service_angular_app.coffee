@@ -21,9 +21,9 @@ if angular?
 
 
 
-  ###  Modulos  ###
+  # Modulos
   #= require ../components/_*.coffee
-  ###  Fin de Modulos  ###
+  # Fin de Modulos
 
 
 
