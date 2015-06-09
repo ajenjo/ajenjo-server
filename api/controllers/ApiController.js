@@ -93,6 +93,7 @@ module.exports = {
 
             req.sessiond.$save(function(err, sesion) {
               if (err) {
+                sails.log.error(err);
                 local.status.error(2);
               } else {
                 local.status.ok(3);
