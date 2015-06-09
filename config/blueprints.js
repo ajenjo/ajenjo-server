@@ -75,7 +75,7 @@ module.exports.blueprints = {
   *                                                                          *
   * Shortcut routes are simple helpers to provide access to a                *
   * controller's CRUD methods from your browser's URL bar. When enabled,     *
-    * GET, POST, PUT, and DELETE routes will be generated for the              *
+  * GET, POST, PUT, and DELETE routes will be generated for the              *
   * controller's`find`, `create`, `update`, and `destroy` actions.           *
   *                                                                          *
   * `shortcuts` are enabled by default, but should be disabled in            *
