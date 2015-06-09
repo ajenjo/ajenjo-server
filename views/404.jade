@@ -1,15 +1,30 @@
 doctype html
 html(lang=sails.config.i18n.defaultLocale)
+
   head
+
     meta(charset="UTF-8")
     meta(
       name="viewport",
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
       )
     title Documents
+
   body
+
     h1 Error 404
-    div= __dirname
-    div= __("Welcome")
-    div= "<div>"
+    if (typeof error!== 'undefined')
+      p= error
+    else
+      p= __("La página que estaban tratando de llegar no existe")
+        | .
+
+
+    small: p
+      | ¿
+      a(href="http://en.wikipedia.org/wiki/HTTP_404")= __("Por qué")
+      | &nbsp;
+      = __("podría estar pasando esto")
+      | ?
+
 

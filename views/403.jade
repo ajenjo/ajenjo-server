@@ -1,12 +1,31 @@
 doctype html
 html(lang=sails.config.i18n.defaultLocale)
   head
+
     meta(charset="UTF-8")
     meta(
       name="viewport",
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
       )
     title Documents
-block body
-  h1 Error 403
+
+  body
+
+    h1= __("Prohibido")
+
+    p
+      if (typeof error !== 'undefined')
+        = error
+      else
+        = __("Usted no tiene permiso para ver la página que estás tratando de llegar")
+        | .
+
+
+    small: p
+      | ¿
+      a(href="http://en.wikipedia.org/wiki/HTTP_403")= __("Por qué")
+      | &nbsp;
+      = __("podría estar pasando esto")
+      | ?
+
 
