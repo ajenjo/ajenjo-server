@@ -1,6 +1,5 @@
-###
-  Variables config
-###
+# Variables config
+
 config =
 
   # Nombre de la aplicación

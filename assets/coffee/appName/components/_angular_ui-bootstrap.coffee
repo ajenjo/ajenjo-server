@@ -1,4 +1,4 @@
-### Module bootstrap ###
+# Module bootstrap
 
 module
   .module [

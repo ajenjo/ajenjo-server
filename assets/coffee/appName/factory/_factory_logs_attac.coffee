@@ -50,7 +50,7 @@ factory 'log', ->
 
 
   # Genera logs basados
-  ###log54126###
+  # log54126
   class log
 
     constructor: (

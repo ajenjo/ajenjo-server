@@ -40,9 +40,9 @@ if angular?
   # Load Provider
   #= require ../provider/_*.coffee
 
-  ### Carga la aplicación ###
+  # Carga la aplicación
   #= require ../_app.coffee
-  ### Fin de Carga la aplicación ###
+  # Fin de Carga la aplicación
 
   #= require ../directives/_*.coffee
 
