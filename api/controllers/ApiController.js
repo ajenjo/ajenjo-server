@@ -39,8 +39,7 @@ module.exports = {
 
     var local = {
       status: {
-        close: function (codeIndex) {
-          dataReturn.backServerCode = codeIndex;
+        close: function () {
           res.json(dataReturn);
           req.generateEmitToAllRoomsSesion();
         },
