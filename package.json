@@ -38,8 +38,8 @@
     "type": "git",
     "url": "https://github.com/ajenjo/backend-definition.git"
   },
-  "author": "anonymous node/sails user",
-  "license": "CC",
+  "author": "Jon Dotsoy <hi@jon.soy> (http://jon.soy/)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ajenjo/backend-definition/issues"
   },
