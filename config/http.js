@@ -21,6 +21,8 @@ module.exports.http = {
     app.use(express.static(process.cwd() + '/bower_components'));
     app.use(express.static(process.cwd() + '/.tmp/public/'));
 
+    app.use(express.static(process.cwd() + '/assets/public/'));
+
     app.use(function(req,res,next){
       next();
     });
@@ -71,7 +73,9 @@ module.exports.http = {
     *                                                                          *
     ***************************************************************************/
     myRequestLogger: function (req, res, next) {
-      sails.log("Requested :: ", req.sessionID, " :: ", req.method, req.url);
+      if (sails.config.environment === 'development') {
+        sails.log("Requested :: ", req.sessionID, " :: ", req.method, req.url);
+      };
       next();
     },
 

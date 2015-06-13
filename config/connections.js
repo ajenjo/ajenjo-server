@@ -40,7 +40,7 @@ module.exports.connections = {
   * Run: npm install sails-mysql                                             *
   *                                                                          *
   ***************************************************************************/
-  mysql: {
+  onlymysql: {
     adapter:  'sails-mysql',
     host:     process.env.db_hostname || 'YOUR_MYSQL_SERVER_HOSTNAME_OR_IP_ADDRESS',
     user:     process.env.db_username || 'YOUR_MYSQL_USER',

@@ -13,3 +13,28 @@ Usando el documento `.env` para poder configurar la base de datos, en donde se d
 ### Templates
 
 
+## Installar
+
+Instalar repositorios
+
+```bash
+$ npm install
+$ bower install
+```
+
+### Iniciar Servicio.
+
+> **Nota:** Require tener instalado [ForeverJs](https://github.com/foreverjs/forever)
+
+```bash
+$ npm start
+```
+
+
+### Detener servicio
+
+```bash
+$ npm stop
+```
+
+

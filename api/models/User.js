@@ -34,6 +34,10 @@ module.exports = {
       type: 'string',
     },
 
+    secondLastName: {
+      type: 'string',
+    },
+
     email: {
       required: true,
       type: 'email',
@@ -62,6 +66,10 @@ module.exports = {
     permissions: {
       collection: 'permission',
       via: 'users',
+    },
+
+    other: {
+      type: 'json',
     },
 
   }, // End Attributes

@@ -6,7 +6,6 @@
  */
 var requestIp = require('request-ip');
 
-
 module.exports = {
 
   /*****************************************************************************
@@ -31,34 +30,47 @@ module.exports = {
 
     // Modelo Data a retornar
     var dataReturn = {
-      loginCorrect : false, // True or False
-      loginError   : false, // True or False
-      status       : 0, // 0, 1, 41, 10
-      pathReturn   : sails.config.ajenjo.defaultPathReturnLogin,
+      backServerCode : 0,
+      loginCorrect   : false, // True or False
+      loginError     : false, // True or False
+      status         : 0, // 0, 1, 41, 10
+      pathReturn     : sails.config.ajenjo.defaultPathReturnLogin,
     }
 
     var local = {
       status: {
         close: function () {
           res.json(dataReturn);
+          req.generateEmitToAllRoomsSesion();
         },
-        clear: function () {
+        clear: function (codeIndex) {
+          dataReturn.backServerCode = codeIndex;
           dataReturn.status = 0;
           local.status.close();
+          req.generateEmitToAllRoomsSesion();
         },
-        ok: function () {
+        ok: function (codeIndex) {
+          dataReturn.backServerCode = codeIndex;
+          dataReturn.loginError = false;
+          dataReturn.loginCorrect = true;
+          dataReturn.pathReturn = req.session.returnPageTmp;
           dataReturn.status = 1;
           local.status.close();
+          req.generateEmitToAllRoomsSesion();
         },
-        errorLogin: function () {
+        errorLogin: function (codeIndex) {
+          dataReturn.backServerCode = codeIndex;
           dataReturn.loginError = true;
           dataReturn.status = 41;
           local.status.close();
+          req.generateEmitToAllRoomsSesion();
         },
-        error: function () {
+        error: function (codeIndex) {
+          dataReturn.backServerCode = codeIndex;
           dataReturn.loginError = true;
           dataReturn.status = 10;
           local.status.close();
+          req.generateEmitToAllRoomsSesion();
         },
       }
     }
@@ -74,28 +86,46 @@ module.exports = {
           password: password,
         }, function (err, user) {
           if (err) {
-            local.status.errorLogin();
+            local.status.errorLogin(1);
           } else {
             req.sessiond.user = user;
             req.sessiond.memory.sesionactive = true;
 
             req.sessiond.$save(function(err, sesion) {
               if (err) {
-                local.status.error();
+                sails.log.error(err);
+                local.status.error(2);
               } else {
-                local.status.ok();
+                local.status.ok(3);
               }
             });
           }
         });
     } else {
-      local.status.error();
+      local.status.error(4);
     };
   },
 
   logout: function (req, res, next) {
 
-    next();
+    req.sessiond.user = null;
+    req.sessiond.memory.sesionactive = false;
+
+    req.sessiond.$save(function(err, sesion){
+      if (err) {
+        res.json(500, {
+          type: "error",
+          message: "Is not Logout.",
+        });
+      } else {
+        req.generateEmitToAllRoomsSesion();
+        res.json({
+          type: "ok",
+          message: "Is Correcte Logout",
+        });
+      }
+    });
+
   },
 
   recovery: function (req, res, next) {
@@ -159,27 +189,9 @@ module.exports = {
   *                                                                            *
   *****************************************************************************/
   status: function (req, res, next) {
-    // var dataReturn = {
-    //   e: 444,
-    //   session: req.sessionID,
-    //   sessiond: req.sessiond,
-    //   datad: req.datad,
-    // };
-
-    var dataReturn = {
-    };
-
-    dataReturn.login = (function () {
-      return !!(req.sessiond.user && req.sessiond.status);
-    })();
-
-    dataReturn.momory = (function() {
-      if (dataReturn.login) {
-        return req.datad;
-      };
-    })();
-
-    res.json(dataReturn);
+    req.generateStatus(function (returnData) {
+      res.json(returnData);
+    })
   },
 
 };

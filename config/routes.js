@@ -41,13 +41,11 @@ module.exports.routes = {
   '/test': function (req, res, next){
     // sails.log(req.sessiond);
 
-    sails.e = req;
-    sails.i = res;
     res.json({
-      sessionID: req.sessionID,
-      session: req.session,
-      sessiond: req.sessiond,
-      datad: req.datad,
+      "req.sessionID" : req.sessionID,
+      "req.session"   : req.session,
+      "req.sessiond"  : req.sessiond,
+      "req.datad"     : req.datad,
     });
   },
 
