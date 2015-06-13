@@ -16,6 +16,10 @@ module.exports = {
 
   r: function (req, res, next) {
 
+    // res.json(req.headers);
+
+    // return;
+
     var cookieDect
       , sessionSender
       , returnPage;

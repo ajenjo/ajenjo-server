@@ -38,3 +38,6 @@ $ npm stop
 ```
 
 
+## License
+
+[MIT License](http://ajenjo.mit-license.org/) Copyright © 2014-2015 Jon Dotsoy. <ajenjo@jon.soy>

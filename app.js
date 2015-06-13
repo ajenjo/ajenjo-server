@@ -22,18 +22,27 @@
 // no matter where we actually lift from.
 process.chdir(__dirname);
 
-// Load .env Local
-try {
-  require('dotenv').load();
-} catch (err) {
 
-}
+var fs   = require("fs");
+var path = require("path");
+
+
+// Load .env Local
+var path_env_file = path.join(process.cwd(), ".env");
+if (fs.existsSync(path_env_file)) {
+
+  console.log("Load Config Environment ::", path_env_file);
+  require('dotenv').load({path: path_env_file});
+
+};
+
 
 // Ensure a "sails" can be located:
 (function() {
   var sails;
   try {
     sails = require('sails');
+
   } catch (e) {
     console.error('To run an app using `node app.js`, you usually need to have a version of `sails` installed in the same directory as your app.');
     console.error('To do that, run `npm install sails`');
@@ -60,7 +69,7 @@ try {
     }
   }
 
-
-  // Start server
-  sails.lift(rc('sails'));
+  sails.lift(rc('sails'), function cbRunSails(err, sails) {
+    // if (!err)
+  });
 })();
