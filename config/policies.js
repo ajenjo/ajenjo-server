@@ -26,14 +26,14 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': ['ViewSessionActive'],
+  '*': ['ViewSessionActive'],
 
-  // 'AjenjoController': {
-  //   '*': ['sessionAuth'],
-  // },
+  'AjenjoController': {
+    '*': ['sessionAuth'],
+  },
 
   // 'LoginController': {
-  //   // '*': true,
+    // '*': true,
   // },
 
   // 'user': {
