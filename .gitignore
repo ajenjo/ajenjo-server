@@ -78,6 +78,7 @@ dump.rdb
 lib-cov
 *.seed
 *.log
+*.log.*
 *.out
 *.pid
 npm-debug.log
