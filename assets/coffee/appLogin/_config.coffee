@@ -4,8 +4,8 @@ config =
 
   # Nombre de la aplicación
   app_name     : 'ajenjo-login'
-  dev          : true
-  presentation : true
+  dev          : !true
+  presentation : !true
 
 
   # log config

@@ -69,7 +69,7 @@ module.exports.blueprints = {
   *                                                                          *
   ***************************************************************************/
 
-  rest: process.env.blueprint_rest || true,
+  rest: process.env.blueprint_rest || false,
 
   /***************************************************************************
   *                                                                          *
