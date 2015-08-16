@@ -47,7 +47,7 @@ docker build -t ajenjo .
 Developr build
 
 ```bash
-docker create -v $(pwd)/api://ajenjo/api -v $(pwd)/assets://ajenjo/assets -v $(pwd)/config://ajenjo/config -v $(pwd)/views://ajenjo/views -v  $(pwd)/bower_components://ajenjo/bower_components -P --name "ajenjo" ajenjo
+docker create -v $(pwd)/api://ajenjo/api -v $(pwd)/assets://ajenjo/assets -v $(pwd)/config://ajenjo/config -v $(pwd)/views://ajenjo/views -v  $(pwd)/bower_components://ajenjo/bower_components -p 9901:80 --name "ajenjo" ajenjo
 ```
 
 
