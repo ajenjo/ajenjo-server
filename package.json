@@ -43,5 +43,20 @@
     "url": "https://github.com/ajenjo/backend-definition/issues"
   },
   "homepage": "https://github.com/ajenjo/backend-definition",
-  "devDependencies": {}
+  "devDependencies": {},
+  "jspm": {
+    "directories": {
+      "baseURL": "assets/public"
+    },
+    "dependencies": {
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "bootswatch": "github:thomaspark/bootswatch@^3.3.5",
+      "jade": "github:johnsoftek/plugin-jade@^0.5.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
 }
